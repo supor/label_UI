@@ -1,0 +1,18 @@
+"2017-06-26 15:12:37","DEBUG","api_1","Start to execute suite: api_1"
+"2017-06-26 15:12:51","DEBUG","api_1-1","Start to execute test case: 1 - loan smet-线下复核"
+"2017-06-26 15:13:07","DEBUG","api_1-1-1","Start to execute task: 1 - 启动浏览器"
+"2017-06-26 15:13:15","DEBUG","api_1-1-1","Start to execute function 'set_up'"
+"2017-06-26 15:13:52","DEBUG",POST http://127.0.0.1:56727/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+"2017-06-26 15:13:53","DEBUG",Finished Request
+"2017-06-26 15:13:58","DEBUG",POST http://127.0.0.1:56727/session/f33da881bb4f5460b498ec11d9e1fa57/window/current/maximize {"windowHandle": "current", "sessionId": "f33da881bb4f5460b498ec11d9e1fa57"}
+"2017-06-26 15:13:59","DEBUG",Finished Request
+"2017-06-26 15:14:07","DEBUG","api_1-1-1","End executing current task"
+"2017-06-26 15:14:08","INFO","api_1","1","1","Pass","72.275"
+"2017-06-26 15:14:19","DEBUG","api_1-1-2","Start to execute task: 2 - 登录"
+"2017-06-26 15:25:13","DEBUG","api_1-1-2","Start to execute function 'login'"
+"2017-06-26 15:28:16","ERROR","api_1-1-2","Current task executes failed, error message: 'str' object has no attribute 'get'"
+"2017-06-28 14:21:37","DEBUG","api_1-1-2","End executing current task"
+"2017-06-28 14:21:37","INFO","api_1","1","2","Fail","169646.881"
+"2017-06-28 14:21:37","INFO","api_1","1","NULL","Fail","169735.919"
+"2017-06-28 14:21:37","DEBUG","api_1-1","End executing test case: 1 - loan smet-线下复核"
+"2017-06-28 14:21:37","DEBUG","api_1","End executing suite: api_1"

@@ -1,0 +1,159 @@
+{
+    "id": "6",
+    "name": "repaybank smet",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "All",
+        "mailList": [
+            "liuxingxu@163.com"
+        ]
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "获取结算单号",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "get_sment_no",
+            "params": {
+                "sment_no": "78103"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "请求repaybank smet核对接口",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_post_requests",
+            "params": {
+                "uri":"/cfms/service/repaybankstatements/reconcile",
+                "data":{
+                    "body":{
+                        "sment_no":"&(1)",
+                        "buss_no":""},
+                    "header":{"channelBizSN":"C724237687C00001DF50192F196A1338",
+                        "channelCode":"101",
+                        "channelSystime":1468227663169,
+                        "operNo":4}
+                },
+                "table_main":"t_cfms_smet_repaybank",
+                "status":"Y08",
+                "sment_no":"&(1)",
+                "other_header":{
+
+                }
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 3,
+            "name": "还银行结算单账户分配请求",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_post_requests",
+            "params": {
+                "uri":"/cfms/service/repaybankstatements/assigneAccount",
+                "data":{
+                    "body": {
+                        "smentNo":"78103",
+                        "orgCode":"00000058",
+                        "businessPayAccount":"6212260200082970753",
+                        "priIntAccount":"110921230010506",
+                        "outBankAccount":"110921230010108",
+                        "bankAcctNo":"110916297010308",
+                        "bankAcctName":"北京蜜蜂汇金科技有限公司",
+                        "bankName":"招商银行北京万达广场支行"},
+                    "header":{
+                        "channelBizSN":"C725683E89E00001D36FA2473EC01D4D",
+                        "channelCode":"101",
+                        "channelSystime":1468573106905,
+                        "operNo":4}
+                },
+                "table_main":"t_cfms_smet_repaybank",
+                "status":"Z02",
+                "sment_no":"&(1)",
+                "other_header":{}
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 4,
+            "name": "还银行结算单分润请求",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_post_requests",
+            "params": {
+                "uri":"/cfms/service/repaybankstatements/distprofit",
+                "data":{
+                    "body": {
+                        "smentNo":"&(1)"
+                        },
+                    "header":{"channelBizSN":"C724255FC1700001BE821AA019A0DC90",
+                        "channelCode":"101",
+                        "channelSystime":1468227663169,
+                        "operNo":4}
+                },
+                "table_main":"t_cfms_smet_repaybank",
+                "status":"Z04",
+                "sment_no":"&(1)",
+                "other_header":{}
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 5,
+            "name": "还银行结算单提交支付申请请求",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_remi_pay_requests",
+            "params": {
+                "url_pay":"/cfms/service/remittance/paymentRequest",
+                "transfer_type":"05",
+                "txn_status":"01",
+                "table_main":"t_cfms_smet_repaybank",
+                "status":"Z04",
+                "sment_no":"&(1)",
+                "other_header":""
+
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 6,
+            "name": "还银行结算单复核申请请求",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_recheck_requests",
+            "params": {
+                "url_in_recheck":"/cfms/service/remittance/recheck",
+                "transfer_type":"05",
+                "txn_status":"02",
+                "table_main":"t_cfms_smet_repaybank",
+                "sment_no":"&(1)",
+                "other_header":""
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

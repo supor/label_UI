@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>$titleFormat</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <style type="text/css">
+        .main {
+            font: 14px Calibri;
+        }
+
+        .tbTasks {
+            width: 90%;
+            margin-left: 5%;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+            .tbTasks th {
+                color: #FFF;
+                text-align: center;
+                background-color: #4F81BD;
+                border: 1px solid #4F81BD;
+            }
+
+            .tbTasks td {
+                padding-left: 5px;
+                border: 1px solid #4F81BD;
+            }
+
+        .divTip {
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 20px;
+            font: bold 16px Calibri;
+        }
+
+        .divNote {
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 20px;
+        }
+
+        .spPass {
+            font-weight: bold;
+            background-color: #00FF00;
+        }
+
+        .spFail {
+            font-weight: bold;
+            background-color: #FF0000;
+        }
+
+        .spSkip {
+            font-weight: bold;
+            background-color: #C0C0C0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <script type="text/javascript">
+        function ShowLogs(elementId) {
+            if (document.getElementById(elementId).style.display == "none") {
+                document.getElementById(elementId).style.display = "";
+            }
+            else {
+                document.getElementById(elementId).style.display = "none";
+            }
+        }
+        function ShowSubLogs(idPrefix) {
+            var trs = document.getElementsByTagName("tr");
+            for (i = 0; i < trs.length; i++) {
+                if (trs[i].id.substring(0, idPrefix.length) == idPrefix) {
+                    var elementId = trs[i].id;
+                    if (document.getElementById(elementId).style.display == "none") {
+                        document.getElementById(elementId).style.display = "";
+                    }
+                    else {
+                        document.getElementById(elementId).style.display = "none";
+                    }
+                }
+            }
+        }
+        function HashToFail(hashId) {
+            ShowLogs(hashId);
+            window.location.hash = "#" + hashId;
+        }
+    </script>
+</head>
+<body>
+    <div class='main'>
+        <div id='summary' style='display:block'>
+            <div class='divTip'>
+                <h2>Tasks: $titleFormat </h2>
+                <h3>Summary: $summaryformat</h3>
+
+            </div>
+            <table class='tbTasks'>
+                <tr>
+                    <th width='20%'>Total
+                    </th>
+                    <th width='20%'>Pass
+                    </th>
+                    <th width='20%'>Skip
+                    </th>
+                    <th width='20%'>Fail
+                    </th>
+                    <th width='20%'>Duration(sec)
+                    </th>
+                   
+                </tr>
+                <tr style='text-align: center'>
+                    <td>
+                        <span id='taskExecuted'>$executedFormat</span>
+                    </td>
+                    <td>
+                        <span id='taskPassed' style='color: #00FF00'>$passedFormat</span>
+                    </td>
+                    <td>
+                        <span id='taskSkipped' style='color: #C0C0C0'>$skippedFormat</span>
+                    </td>
+                    <td>
+                        <span id='taskFailed' style='color: #FF0000'>$failedFormat</span>
+                    </td>
+                    <td>
+                        <span id='taskDuration'>$durationFormat</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id='tasks'>
+            <div class='divTip'>
+                Test Logs
+                <br />
+                <br />
+            </div>
+            <table class='tbTasks'>
+                <tr>
+                    <th width='25%'>Case Id
+                    </th>
+                    <th width='25%'>Result
+                    </th>
+                    <th width='25%'>Logs
+                    </th>
+                    <th width='25%'>Task Duration(sec)
+                    </th>
+                </tr>
+                <span style='display: none'>$taskFormat</span>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

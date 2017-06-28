@@ -1,0 +1,135 @@
+{
+    "id": "0",
+    "name": "clean mysql smet ",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "All",
+        "mailList": [
+            "liuxingxu@163.com"
+        ]
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "初始化 - 放款结算单-线上复核",
+            "moduleName": "Projects.PRIC.RestAPI.mysql.mysqlManagments",
+            "className": "",
+            "functionName": "update_smet_status",
+            "params": {
+                "table": "t_cfms_smet_loan",
+                "total_table":"t_cfms_smet_info",
+                "status":"Y00",
+                "smet_no":"23761"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "初始化 - 第三方结算单",
+            "moduleName": "Projects.PRIC.RestAPI.mysql.mysqlManagments",
+            "className": "",
+            "functionName": "update_smet_status",
+            "params": {
+                "table":"t_cfms_smet_recthirdcust",
+                "total_table": "t_cfms_smet_info",
+                "status":"Y00",
+                "smet_no":"JSD561scjhBZlcwIBg"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 3,
+            "name": "初始化 - 商户结算单",
+            "moduleName": "Projects.PRIC.RestAPI.mysql.mysqlManagments",
+            "className": "",
+            "functionName": "update_smet_status",
+            "params": {
+                "table":"t_cfms_smet_reccomcust",
+                "total_table": "t_cfms_smet_info",
+                "status":"Y00",
+                "smet_no":"JSD2016063000114194881"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 4,
+            "name": "初始化 - 垫资结算单",
+            "moduleName": "Projects.PRIC.RestAPI.mysql.mysqlManagments",
+            "className": "",
+            "functionName": "update_smet_status",
+            "params": {
+                "table":"t_cfms_smet_padfund",
+                "total_table": "t_cfms_smet_info",
+                "status":"Y00",
+                "smet_no":"56401"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 5,
+            "name": "初始化 - 还HX结算单",
+            "moduleName": "Projects.PRIC.RestAPI.mysql.mysqlManagments",
+            "className": "",
+            "functionName": "update_smet_status",
+            "params": {
+                "table":"t_cfms_smet_repayhx",
+                "total_table": "t_cfms_smet_info",
+                "status":"Y00",
+                "smet_no":"JSD2016063014353306785"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 6,
+            "name": "初始化 - 还银行结算单",
+            "moduleName": "Projects.PRIC.RestAPI.mysql.mysqlManagments",
+            "className": "",
+            "functionName": "update_smet_status",
+            "params": {
+                "table":"t_cfms_smet_repaybank",
+                "total_table": "t_cfms_smet_info",
+                "status":"Y00",
+                "smet_no":"78103"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 7,
+            "name": "初始化 - 放款结算单-线下复核",
+            "moduleName": "Projects.PRIC.RestAPI.mysql.mysqlManagments",
+            "className": "",
+            "functionName": "update_smet_status",
+            "params": {
+                "table": "t_cfms_smet_loan",
+                "total_table":"t_cfms_smet_info",
+                "status":"Y00",
+                "smet_no":"91742"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+
+    ]
+}
+

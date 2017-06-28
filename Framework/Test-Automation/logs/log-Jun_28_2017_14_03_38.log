@@ -1,0 +1,115 @@
+"2017-06-28 14:03:38","DEBUG","ui_case_1_task_pool_manage","Start to execute suite: ui_case_1_task_pool_manage"
+"2017-06-28 14:03:38","DEBUG","ui_case_1_task_pool_manage-1","Start to execute test case: 1 - 流式多队列-任务池管理"
+"2017-06-28 14:03:38","DEBUG","ui_case_1_task_pool_manage-1-1","Start to execute task: 1 - 登录"
+"2017-06-28 14:03:38","DEBUG","ui_case_1_task_pool_manage-1-1","Current task is not run because the param 'run' is 0"
+"2017-06-28 14:03:38","DEBUG","ui_case_1_task_pool_manage-1-1","End executing current task"
+"2017-06-28 14:03:38","INFO","ui_case_1_task_pool_manage","1","1","Skip","0.0"
+"2017-06-28 14:03:38","DEBUG","ui_case_1_task_pool_manage-1-2","Start to execute task: 2 - 管理员分配任务"
+"2017-06-28 14:03:38","DEBUG","ui_case_1_task_pool_manage-1-2","Start to execute function 'stream_assign'"
+"2017-06-28 14:03:40","DEBUG",POST http://127.0.0.1:64697/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+"2017-06-28 14:03:42","DEBUG",Finished Request
+"2017-06-28 14:03:42","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/window/current/maximize {"windowHandle": "current", "sessionId": "3c854c92b164b13cc1b7590be546f6fd"}
+"2017-06-28 14:03:43","DEBUG",Finished Request
+"2017-06-28 14:03:43","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/url {"url": "https://vendor.zzcrowd.com/", "sessionId": "3c854c92b164b13cc1b7590be546f6fd"}
+"2017-06-28 14:03:44","DEBUG",Finished Request
+"2017-06-28 14:03:44","DEBUG","ui_case_1_task_pool_manage-1-2","启动chrome浏览器..."
+"2017-06-28 14:03:45","DEBUG","ui_case_1_task_pool_manage-1-2","点击主页的登录按钮"
+"2017-06-28 14:03:45","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='navbar-collapse-1']/ul/li[5]/a"}
+"2017-06-28 14:03:45","DEBUG",Finished Request
+"2017-06-28 14:03:45","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.5675418972566739-1/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.5675418972566739-1"}
+"2017-06-28 14:03:45","DEBUG",Finished Request
+"2017-06-28 14:03:45","DEBUG","ui_case_1_task_pool_manage-1-2","输入用户名"
+"2017-06-28 14:03:45","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "id", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "username"}
+"2017-06-28 14:03:45","DEBUG",Finished Request
+"2017-06-28 14:03:45","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.4474655604229294-1/value {"text": "r", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.4474655604229294-1", "value": ["r"]}
+"2017-06-28 14:03:45","DEBUG",Finished Request
+"2017-06-28 14:03:46","DEBUG","ui_case_1_task_pool_manage-1-2","输入密码"
+"2017-06-28 14:03:46","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "id", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "password"}
+"2017-06-28 14:03:46","DEBUG",Finished Request
+"2017-06-28 14:03:46","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.4474655604229294-2/value {"text": "vendor", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.4474655604229294-2", "value": ["v", "e", "n", "d", "o", "r"]}
+"2017-06-28 14:03:46","DEBUG",Finished Request
+"2017-06-28 14:03:47","DEBUG","ui_case_1_task_pool_manage-1-2","点击登录按钮"
+"2017-06-28 14:03:47","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "id", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "submit"}
+"2017-06-28 14:03:47","DEBUG",Finished Request
+"2017-06-28 14:03:47","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.4474655604229294-3/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.4474655604229294-3"}
+"2017-06-28 14:03:48","DEBUG",Finished Request
+"2017-06-28 14:03:49","DEBUG",GET http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/url {"sessionId": "3c854c92b164b13cc1b7590be546f6fd"}
+"2017-06-28 14:03:49","DEBUG",Finished Request
+"2017-06-28 14:03:49","DEBUG","ui_case_1_task_pool_manage-1-2","登录成功 页面跳转正确"
+"2017-06-28 14:03:49","DEBUG","ui_case_1_task_pool_manage-1-2","管理员登录"
+"2017-06-28 14:03:50","DEBUG","ui_case_1_task_pool_manage-1-2","进入管理员页面"
+"2017-06-28 14:03:50","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id=\"main\"]/div/div/div/div[1]/div"}
+"2017-06-28 14:03:50","DEBUG",Finished Request
+"2017-06-28 14:03:50","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.7819165429679522-1/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.7819165429679522-1"}
+"2017-06-28 14:03:50","DEBUG",Finished Request
+"2017-06-28 14:03:51","DEBUG",GET http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/url {"sessionId": "3c854c92b164b13cc1b7590be546f6fd"}
+"2017-06-28 14:03:51","DEBUG",Finished Request
+"2017-06-28 14:03:51","DEBUG","ui_case_1_task_pool_manage-1-2","任务管理 页面跳转正确"
+"2017-06-28 14:03:51","DEBUG","ui_case_1_task_pool_manage-1-2","进入项目列表页面"
+"2017-06-28 14:03:51","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id=\"main\"]/div/div[2]/div/div[1]/div"}
+"2017-06-28 14:03:51","DEBUG",Finished Request
+"2017-06-28 14:03:51","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.8612847707487161-1/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.8612847707487161-1"}
+"2017-06-28 14:03:52","DEBUG",Finished Request
+"2017-06-28 14:03:53","DEBUG",GET http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/url {"sessionId": "3c854c92b164b13cc1b7590be546f6fd"}
+"2017-06-28 14:03:53","DEBUG",Finished Request
+"2017-06-28 14:03:53","DEBUG","ui_case_1_task_pool_manage-1-2","项目管理 页面跳转正确"
+"2017-06-28 14:03:53","DEBUG","ui_case_1_task_pool_manage-1-2","筛选已导入的第一个项目"
+"2017-06-28 14:03:53","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='root']/div[2]/div/div/div[1]/div[1]/div/div[3]/div[2]/select"}
+"2017-06-28 14:03:53","DEBUG",Finished Request
+"2017-06-28 14:03:53","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.567964040355025-1/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.567964040355025-1"}
+"2017-06-28 14:03:53","DEBUG",Finished Request
+"2017-06-28 14:03:54","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='root']/div[2]/div/div/div[1]/div[1]/div/div[3]/div[2]/select/option[2]"}
+"2017-06-28 14:03:54","DEBUG",Finished Request
+"2017-06-28 14:03:54","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.567964040355025-2/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.567964040355025-2"}
+"2017-06-28 14:03:54","DEBUG",Finished Request
+"2017-06-28 14:03:55","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='root']/div[2]/div/div/div[1]/div[1]/div/div[4]/div[2]/select"}
+"2017-06-28 14:03:55","DEBUG",Finished Request
+"2017-06-28 14:03:55","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.567964040355025-3/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.567964040355025-3"}
+"2017-06-28 14:03:55","DEBUG",Finished Request
+"2017-06-28 14:03:56","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='root']/div[2]/div/div/div[1]/div[1]/div/div[4]/div[2]/select/option[2]"}
+"2017-06-28 14:03:56","DEBUG",Finished Request
+"2017-06-28 14:03:56","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.567964040355025-4/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.567964040355025-4"}
+"2017-06-28 14:03:56","DEBUG",Finished Request
+"2017-06-28 14:03:57","DEBUG","ui_case_1_task_pool_manage-1-2","进入第一个项目详情页面"
+"2017-06-28 14:03:57","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]/a"}
+"2017-06-28 14:03:57","DEBUG",Finished Request
+"2017-06-28 14:03:57","DEBUG",GET http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.567964040355025-5/text {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.567964040355025-5"}
+"2017-06-28 14:03:57","DEBUG",Finished Request
+"2017-06-28 14:03:57","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='root']/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]/a"}
+"2017-06-28 14:03:57","DEBUG",Finished Request
+"2017-06-28 14:03:57","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.567964040355025-5/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.567964040355025-5"}
+"2017-06-28 14:03:57","DEBUG",Finished Request
+"2017-06-28 14:03:58","DEBUG",GET http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/url {"sessionId": "3c854c92b164b13cc1b7590be546f6fd"}
+"2017-06-28 14:03:58","DEBUG",Finished Request
+"2017-06-28 14:03:58","DEBUG","ui_case_1_task_pool_manage-1-2","项目详情 页面跳转正确"
+"2017-06-28 14:03:58","DEBUG","ui_case_1_task_pool_manage-1-2","修改流向为流式标注"
+"2017-06-28 14:03:58","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "id", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "jobstream-edit"}
+"2017-06-28 14:03:58","DEBUG",Finished Request
+"2017-06-28 14:03:58","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.5567558358284652-1/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.5567558358284652-1"}
+"2017-06-28 14:03:58","DEBUG",Finished Request
+"2017-06-28 14:04:00","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='stream-select-area']/div[1]/select"}
+"2017-06-28 14:04:00","DEBUG",Finished Request
+"2017-06-28 14:04:00","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.5567558358284652-2/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.5567558358284652-2"}
+"2017-06-28 14:04:01","DEBUG",Finished Request
+"2017-06-28 14:04:02","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id='stream-select-area']/div[1]/select/option[2]"}
+"2017-06-28 14:04:02","DEBUG",Finished Request
+"2017-06-28 14:04:02","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.5567558358284652-3/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.5567558358284652-3"}
+"2017-06-28 14:04:02","DEBUG",Finished Request
+"2017-06-28 14:04:03","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "id", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "change-jobstream-save"}
+"2017-06-28 14:04:03","DEBUG",Finished Request
+"2017-06-28 14:04:03","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.5567558358284652-4/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.5567558358284652-4"}
+"2017-06-28 14:04:03","DEBUG",Finished Request
+"2017-06-28 14:04:04","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "/html/body/div[2]/div/div/div[3]/button[2]"}
+"2017-06-28 14:04:04","DEBUG",Finished Request
+"2017-06-28 14:04:04","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.5567558358284652-5/click {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.5567558358284652-5"}
+"2017-06-28 14:04:04","DEBUG",Finished Request
+"2017-06-28 14:04:05","DEBUG",POST http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element {"using": "xpath", "sessionId": "3c854c92b164b13cc1b7590be546f6fd", "value": "//*[@id=\"stream-areaval\"]"}
+"2017-06-28 14:04:05","DEBUG",Finished Request
+"2017-06-28 14:04:05","DEBUG",GET http://127.0.0.1:64697/session/3c854c92b164b13cc1b7590be546f6fd/element/0.5202197955810768-1/text {"sessionId": "3c854c92b164b13cc1b7590be546f6fd", "id": "0.5202197955810768-1"}
+"2017-06-28 14:04:05","DEBUG",Finished Request
+"2017-06-28 14:04:05","DEBUG","ui_case_1_task_pool_manage-1-2","修改任务流向为流式标注成功"
+"2017-06-28 14:04:08","DEBUG","ui_case_1_task_pool_manage-1-2","End executing current task"
+"2017-06-28 14:04:08","INFO","ui_case_1_task_pool_manage","1","2","Pass","29.825"
+"2017-06-28 14:04:08","INFO","ui_case_1_task_pool_manage","1","NULL","Pass","29.841"
+"2017-06-28 14:04:08","DEBUG","ui_case_1_task_pool_manage-1","End executing test case: 1 - 流式多队列-任务池管理"
+"2017-06-28 14:04:08","DEBUG","ui_case_1_task_pool_manage","End executing suite: ui_case_1_task_pool_manage"

@@ -1,0 +1,41 @@
+{
+    "id": "1",
+    "name": "流式多队列-任务池管理及分配",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "",
+        "mailList": []
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "启动浏览器",
+            "moduleName": "Projects.LABEL.UI.common.common",
+            "className": "",
+            "functionName": "set_up",
+            "params": {
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "登录",
+            "moduleName": "Projects.LABEL.UI.common.common",
+            "className": "",
+            "functionName": "login",
+            "params": {
+                "username": "r",
+                "passwd": "dev"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

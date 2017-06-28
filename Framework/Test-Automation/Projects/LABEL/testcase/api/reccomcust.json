@@ -1,0 +1,124 @@
+{
+    "id": "3",
+    "name": "comcustpay smet",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "All",
+        "mailList": [
+            "liuxingxu@163.com"
+        ]
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "获取结算单号",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "get_sment_no",
+            "params": {
+                "sment_no": "JSD2016063000114194881"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "请求comcustpay smet核对接口",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_post_requests",
+            "params": {
+                "uri":"/cfms/service/comcustpaystatements/reconcile",
+                "data":{
+                    "body":{
+                        "sment_no":"&(1)",
+                        "buss_no":"77730"}
+                },
+                "table_main":"t_cfms_smet_reccomcust",
+                "status":"Y08",
+                "sment_no":"&(1)",
+                "other_header":{
+
+                }
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 3,
+            "name": "商户充值结算单账户分配和分润请求",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_post_requests",
+            "params": {
+                "uri":"/cfms/service/comcustpaystatements/distprofit",
+                "data":{
+                    "body": {
+                        "smentNo":"&(1)",
+                        "smentThirdAccount":"110921230010111",
+                      "perDepAccount":"110921230010719"},
+                    "header":{"channelBizSN":"C7238DA02E1000015E2B1843CD0D14D7",
+                      "channelCode":"101",
+                      "channelSystime":1468075982329,
+                      "operNo":4}
+                },
+                "table_main":"t_cfms_smet_reccomcust",
+                "status":"Z04",
+                "sment_no":"&(1)",
+                "other_header":{}
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 4,
+            "name": "商户充值结算单提交支付申请请求",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_remi_pay_requests",
+            "params": {
+                "url_pay":"/cfms/service/remittance/paymentRequest",
+                "transfer_type":"03",
+                "txn_status":"01",
+                "table_main":"t_cfms_smet_reccomcust",
+                "status":"Z04",
+                "sment_no":"&(1)",
+                "other_header":""
+
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 5,
+            "name": "商户充值结算单复核申请请求",
+            "moduleName": "Projects.PRIC.RestAPI.api.apiManagments",
+            "className": "",
+            "functionName": "send_recheck_requests",
+            "params": {
+                "url_in_recheck":"/cfms/service/remittance/recheck",
+                "transfer_type":"03",
+                "txn_status":"02",
+                "table_main":"t_cfms_smet_reccomcust",
+                "status":"Z08",
+                "sment_no":"&(1)",
+                "other_header":""
+
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+
