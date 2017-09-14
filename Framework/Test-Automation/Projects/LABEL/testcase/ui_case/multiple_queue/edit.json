@@ -1,0 +1,28 @@
+{
+    "id": "1",
+    "name": "流式多队列-标注",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "",
+        "mailList": []
+    },
+    "tasks": [
+
+        {
+            "id": 1,
+            "name": "多队列-标注流程",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit",
+            "className": "",
+            "functionName": "edit",
+            "params": {
+                "work_flow_id": "1"
+            },
+            "run":1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

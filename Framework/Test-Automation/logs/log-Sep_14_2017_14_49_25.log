@@ -1,0 +1,94 @@
+"2017-09-14 14:49:25","DEBUG","ui_case_1_stream","Test suite 'ui_case_1_stream' do not run because the param 'run' is 0"
+"2017-09-14 14:49:25","DEBUG","ui_case_2_task_manage","Test suite 'ui_case_2_task_manage' do not run because the param 'run' is 0"
+"2017-09-14 14:49:25","DEBUG","ui_case_3_task_pool_manage","Test suite 'ui_case_3_task_pool_manage' do not run because the param 'run' is 0"
+"2017-09-14 14:49:25","DEBUG","ui_case_4_mult_edit_statistic","Start to execute suite: ui_case_4_mult_edit_statistic"
+"2017-09-14 14:49:25","DEBUG","ui_case_4_mult_edit_statistic-1","Start to execute test case: 1 - 流式多队列-标注-统计"
+"2017-09-14 14:49:25","DEBUG","ui_case_4_mult_edit_statistic-1-1","Start to execute task: 1 - 多队列-标注-跳过-统计"
+"2017-09-14 14:49:25","DEBUG","ui_case_4_mult_edit_statistic-1-1","Start to execute function 'edit_skip'"
+"2017-09-14 14:49:27","DEBUG","ui_case_4_mult_edit_statistic-1-1","程序开始执行的时间为：2017-09-14 14:49:27"
+"2017-09-14 14:49:29","DEBUG",POST http://127.0.0.1:61500/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+"2017-09-14 14:49:31","DEBUG",Finished Request
+"2017-09-14 14:49:31","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/window/current/maximize {"windowHandle": "current", "sessionId": "76d03bcbf73de2cccda3bb334af936bb"}
+"2017-09-14 14:49:32","DEBUG",Finished Request
+"2017-09-14 14:49:32","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/url {"url": "http://vendor.zzcrowd.com/", "sessionId": "76d03bcbf73de2cccda3bb334af936bb"}
+"2017-09-14 14:49:34","DEBUG",Finished Request
+"2017-09-14 14:49:34","DEBUG","ui_case_4_mult_edit_statistic-1-1","启动chrome浏览器..."
+"2017-09-14 14:49:34","DEBUG","ui_case_4_mult_edit_statistic-1-1","点击主页的登录按钮"
+"2017-09-14 14:49:34","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id='navbar-collapse-1']/ul/li[5]/a"}
+"2017-09-14 14:49:35","DEBUG",Finished Request
+"2017-09-14 14:49:35","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.011740732467932613-1/click {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.011740732467932613-1"}
+"2017-09-14 14:49:35","DEBUG",Finished Request
+"2017-09-14 14:49:35","DEBUG","ui_case_4_mult_edit_statistic-1-1","输入用户名"
+"2017-09-14 14:49:35","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/elements {"using": "id", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "username"}
+"2017-09-14 14:49:35","DEBUG",Finished Request
+"2017-09-14 14:49:35","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "id", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "username"}
+"2017-09-14 14:49:35","DEBUG",Finished Request
+"2017-09-14 14:49:35","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.03819031556020547-1/value {"text": "r", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.03819031556020547-1", "value": ["r"]}
+"2017-09-14 14:49:35","DEBUG",Finished Request
+"2017-09-14 14:49:36","DEBUG","ui_case_4_mult_edit_statistic-1-1","输入密码"
+"2017-09-14 14:49:36","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/elements {"using": "id", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "password"}
+"2017-09-14 14:49:36","DEBUG",Finished Request
+"2017-09-14 14:49:36","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "id", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "password"}
+"2017-09-14 14:49:36","DEBUG",Finished Request
+"2017-09-14 14:49:36","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.03819031556020547-2/value {"text": "vendor", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.03819031556020547-2", "value": ["v", "e", "n", "d", "o", "r"]}
+"2017-09-14 14:49:36","DEBUG",Finished Request
+"2017-09-14 14:49:36","DEBUG","ui_case_4_mult_edit_statistic-1-1","点击登录按钮"
+"2017-09-14 14:49:36","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/elements {"using": "id", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "submit"}
+"2017-09-14 14:49:36","DEBUG",Finished Request
+"2017-09-14 14:49:36","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "id", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "submit"}
+"2017-09-14 14:49:36","DEBUG",Finished Request
+"2017-09-14 14:49:36","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.03819031556020547-3/click {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.03819031556020547-3"}
+"2017-09-14 14:49:37","DEBUG",Finished Request
+"2017-09-14 14:49:37","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/url {"sessionId": "76d03bcbf73de2cccda3bb334af936bb"}
+"2017-09-14 14:49:37","DEBUG",Finished Request
+"2017-09-14 14:49:37","DEBUG","ui_case_4_mult_edit_statistic-1-1","登录成功 页面跳转正确"
+"2017-09-14 14:49:38","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/url {"url": "http://vendor.zzcrowd.com/editor/flow-select", "sessionId": "76d03bcbf73de2cccda3bb334af936bb"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/elements {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"subjob-list-body\"]/table/tbody/tr"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG","ui_case_4_mult_edit_statistic-1-1","标注列表总共 7 条数据"
+"2017-09-14 14:49:38","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"subjob-list-body\"]/table/tbody/tr[1]/td[2]"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.20131406352055192-8/text {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.20131406352055192-8"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"subjob-list-body\"]/table/tbody/tr[1]/td[5]"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.20131406352055192-9/text {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.20131406352055192-9"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"subjob-list-body\"]/table/tbody/tr[1]/td[6]"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.20131406352055192-10/text {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.20131406352055192-10"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"subjob-list-body\"]/table/tbody/tr[1]/td[7]/a"}
+"2017-09-14 14:49:38","DEBUG",Finished Request
+"2017-09-14 14:49:38","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.20131406352055192-11/click {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.20131406352055192-11"}
+"2017-09-14 14:49:39","DEBUG",Finished Request
+"2017-09-14 14:49:39","DEBUG","ui_case_4_mult_edit_statistic-1-1","1-查看在标注跳过前各统计数据"
+"2017-09-14 14:49:39","DEBUG","ui_case_4_mult_edit_statistic-1-1","1.1-查看任务池工作量统计页面在跳过前的标注个数"
+"2017-09-14 14:49:39","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/execute {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/statistics/flow/task-pools\");"}
+"2017-09-14 14:49:39","DEBUG",Finished Request
+"2017-09-14 14:49:40","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/window_handles {"sessionId": "76d03bcbf73de2cccda3bb334af936bb"}
+"2017-09-14 14:49:40","DEBUG",Finished Request
+"2017-09-14 14:49:40","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/window {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "name": "CDwindow-971be6fe-29ed-432c-b80f-798cbd9822ae"}
+"2017-09-14 14:49:40","DEBUG",Finished Request
+"2017-09-14 14:49:40","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/elements {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-14 14:49:41","DEBUG",Finished Request
+"2017-09-14 14:49:41","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-14 14:49:41","DEBUG",Finished Request
+"2017-09-14 14:49:41","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.540493744189448-3/text {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.540493744189448-3"}
+"2017-09-14 14:49:41","DEBUG",Finished Request
+"2017-09-14 14:49:41","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element {"using": "xpath", "sessionId": "76d03bcbf73de2cccda3bb334af936bb", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[4]"}
+"2017-09-14 14:49:42","DEBUG",Finished Request
+"2017-09-14 14:49:42","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/element/0.540493744189448-4/text {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "id": "0.540493744189448-4"}
+"2017-09-14 14:49:42","DEBUG",Finished Request
+"2017-09-14 14:49:42","DEBUG",DELETE http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/window {"sessionId": "76d03bcbf73de2cccda3bb334af936bb"}
+"2017-09-14 14:49:42","DEBUG",Finished Request
+"2017-09-14 14:49:42","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/window {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "name": "CDwindow-f29afee0-6a47-45ea-abdc-0a5de3f8f1e2"}
+"2017-09-14 14:49:42","DEBUG",Finished Request
+"2017-09-14 14:49:42","DEBUG","ui_case_4_mult_edit_statistic-1-1","1.2-查看【从任务池进入多队列工作量统计】在标注跳过前的【标注个数，unit个数，跳过个数】"
+"2017-09-14 14:49:42","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/execute {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/statistics/flow/task-pools\");"}
+"2017-09-14 14:49:42","DEBUG",Finished Request
+"2017-09-14 14:49:43","DEBUG",GET http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/window_handles {"sessionId": "76d03bcbf73de2cccda3bb334af936bb"}
+"2017-09-14 14:49:43","DEBUG",Finished Request
+"2017-09-14 14:49:43","DEBUG",POST http://127.0.0.1:61500/session/76d03bcbf73de2cccda3bb334af936bb/window {"sessionId": "76d03bcbf73de2cccda3bb334af936bb", "name": "CDwindow-9d14aed1-a974-4d4d-9349-99c5679b6efe"}
+"2017-09-14 14:49:43","DEBUG",Finished Request

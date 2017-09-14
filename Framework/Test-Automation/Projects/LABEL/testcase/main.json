@@ -11,20 +11,93 @@
         {
             "suiteName": "ui_case_1_stream",
             "folderPath": "/ui_case/stream",
-            "run": 1,
+            "run": 0,
             "executeSequencer": [
-                "stream_manage.json"
+                "stream_edit.json"
             ],
             "notes": "ui_case_1_stream"
         },
         {
-            "suiteName": "ui_case_2_task_pool_manage",
-            "folderPath": "/ui_case",
+            "suiteName": "ui_case_2_task_manage",
+            "folderPath": "/ui_case/multiple_queue",
+            "run":0,
+            "executeSequencer": [
+                "task_manage.json"
+            ],
+            "notes": "ui_case_2_task_manage-任务管理及分配"
+        },
+        {
+            "suiteName": "ui_case_3_task_pool_manage",
+            "folderPath": "/ui_case/multiple_queue",
             "run": 0,
             "executeSequencer": [
-                ""
+                "task_pool_manage.json"
             ],
-            "notes": "ui_case_2_task_pool_manage"
+            "notes": "ui_case_3_task_pool_manage-任务池管理"
+        },
+        {
+            "suiteName": "ui_case_4_mult_edit_statistic",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 0,
+            "executeSequencer": [
+                "edit_statistic.json"
+            ],
+            "notes": "ui_case_4_mult_edit-多队列标注数据统计"
+        },
+        {
+            "suiteName": "ui_case_6_mult_edit",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 0,
+            "executeSequencer": [
+                "edit.json"
+            ],
+            "notes": "ui_case_6_mult_edit-多队列标注流程"
+        },
+        {
+            "suiteName": "ui_case_5_mult_check_statistic",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 1,
+            "executeSequencer": [
+                "check_statistic.json"
+            ],
+            "notes": "ui_case_5_mult_check-多队列检查数据统计"
+        },
+
+        {
+            "suiteName": "ui_case_7_mult_check",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 0,
+            "executeSequencer": [
+                "check.json"
+            ],
+            "notes": "ui_case_7_mult_check-多队列检查流程"
+        },
+        {
+            "suiteName": "ui_case_8_mult_sample",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 0,
+            "executeSequencer": [
+                "sample.json"
+            ],
+            "notes": "ui_case_8_mult_sample-多队列抽查"
+        },
+        {
+            "suiteName": "ui_case_9_mult_review",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 0,
+            "executeSequencer": [
+                "review.json"
+            ],
+            "notes": "ui_case_9_mult_review-多队列验收"
+        },
+        {
+            "suiteName": "ui_case_10_mult_refute",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 0,
+            "executeSequencer": [
+                "refute.json"
+            ],
+            "notes": "ui_case_10_mult_refute-多队列批驳"
         }
 
     ]

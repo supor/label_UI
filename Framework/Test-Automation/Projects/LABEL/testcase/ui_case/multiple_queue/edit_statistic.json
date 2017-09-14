@@ -1,0 +1,46 @@
+{
+    "id": "1",
+    "name": "流式多队列-标注-统计",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "",
+        "mailList": []
+    },
+    "tasks": [
+
+        {
+            "id": 1,
+            "name": "多队列-标注-跳过-统计",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit",
+            "className": "",
+            "functionName": "edit_skip",
+            "params": {
+                "work_flow_id": "1",
+                "task_pool_id": "1",
+                "task_name": "Face - 假脸识别"
+            },
+            "run":1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "多队列-标注-提交-统计",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit",
+            "className": "",
+            "functionName": "edit_submit",
+            "params": {
+                "work_flow_id": "1",
+                "task_pool_id": "1",
+                "task_name": "Face - 假脸识别"
+            },
+            "run":0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

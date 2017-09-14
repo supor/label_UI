@@ -1,0 +1,589 @@
+"2017-09-04 14:54:04","DEBUG","ui_case_1_stream","Test suite 'ui_case_1_stream' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_2_task_manage","Test suite 'ui_case_2_task_manage' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_3_task_pool_manage","Test suite 'ui_case_3_task_pool_manage' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_4_mult_edit_statistic","Test suite 'ui_case_4_mult_edit_statistic' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_5_mult_check_statistic","Test suite 'ui_case_5_mult_check_statistic' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_6_mult_edit","Test suite 'ui_case_6_mult_edit' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_7_mult_check","Test suite 'ui_case_7_mult_check' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_8_mult_sample","Test suite 'ui_case_8_mult_sample' do not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review","Start to execute suite: ui_case_9_mult_review"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1","Start to execute test case: 1 - 流式多队列-验收"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-1","Start to execute task: 1 - 多队列-验收流程-放弃"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-1","Current task is not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-1","End executing current task"
+"2017-09-04 14:54:04","INFO","ui_case_9_mult_review","1","1","Skip","0.0"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-2","Start to execute task: 2 - 多队列-验收流程-驳回"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-2","Current task is not run because the param 'run' is 0"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-2","End executing current task"
+"2017-09-04 14:54:04","INFO","ui_case_9_mult_review","1","2","Skip","0.001"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-3","Start to execute task: 3 - 多队列-验收流程-通过"
+"2017-09-04 14:54:04","DEBUG","ui_case_9_mult_review-1-3","Start to execute function 'review_approve'"
+"2017-09-04 14:54:07","DEBUG",POST http://127.0.0.1:57630/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+"2017-09-04 14:54:08","DEBUG",Finished Request
+"2017-09-04 14:54:08","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window/current/maximize {"windowHandle": "current", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:10","DEBUG",Finished Request
+"2017-09-04 14:54:10","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/url {"url": "http://vendor.zzcrowd.com/", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:12","DEBUG",Finished Request
+"2017-09-04 14:54:12","DEBUG","ui_case_9_mult_review-1-3","启动chrome浏览器..."
+"2017-09-04 14:54:13","DEBUG","ui_case_9_mult_review-1-3","点击主页的登录按钮"
+"2017-09-04 14:54:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id='navbar-collapse-1']/ul/li[5]/a"}
+"2017-09-04 14:54:13","DEBUG",Finished Request
+"2017-09-04 14:54:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.9019601850518195-1/click {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.9019601850518195-1"}
+"2017-09-04 14:54:14","DEBUG",Finished Request
+"2017-09-04 14:54:14","DEBUG","ui_case_9_mult_review-1-3","输入用户名"
+"2017-09-04 14:54:14","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "username"}
+"2017-09-04 14:54:14","DEBUG",Finished Request
+"2017-09-04 14:54:14","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.021263556292136165-1/value {"text": "r", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.021263556292136165-1", "value": ["r"]}
+"2017-09-04 14:54:14","DEBUG",Finished Request
+"2017-09-04 14:54:15","DEBUG","ui_case_9_mult_review-1-3","输入密码"
+"2017-09-04 14:54:15","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "password"}
+"2017-09-04 14:54:15","DEBUG",Finished Request
+"2017-09-04 14:54:15","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.021263556292136165-2/value {"text": "vendor", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.021263556292136165-2", "value": ["v", "e", "n", "d", "o", "r"]}
+"2017-09-04 14:54:15","DEBUG",Finished Request
+"2017-09-04 14:54:16","DEBUG","ui_case_9_mult_review-1-3","点击登录按钮"
+"2017-09-04 14:54:16","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "submit"}
+"2017-09-04 14:54:16","DEBUG",Finished Request
+"2017-09-04 14:54:16","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.021263556292136165-3/click {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.021263556292136165-3"}
+"2017-09-04 14:54:17","DEBUG",Finished Request
+"2017-09-04 14:54:18","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/url {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:18","DEBUG",Finished Request
+"2017-09-04 14:54:18","DEBUG","ui_case_9_mult_review-1-3","登录成功 页面跳转正确"
+"2017-09-04 14:54:19","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/url {"url": "http://vendor.zzcrowd.com/spa/review/task-flow-jobs?sorts=&page=1&per_page=10&continuable=1#1", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:20","DEBUG",Finished Request
+"2017-09-04 14:54:20","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr"}
+"2017-09-04 14:54:20","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG","ui_case_9_mult_review-1-3","验收列表总共 2 条数据"
+"2017-09-04 14:54:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-3/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-3"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[1]/td[5]"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-4/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-4"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-5/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-5"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[2]/td[5]"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-6/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-6"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG","ui_case_9_mult_review-1-3","验收-通过流程"
+"2017-09-04 14:54:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[2]/td[7]/div/button/i"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-7/click {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-7"}
+"2017-09-04 14:54:21","DEBUG",Finished Request
+"2017-09-04 14:54:22","DEBUG","ui_case_9_mult_review-1-3","抽样出一个任务"
+"2017-09-04 14:54:22","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div[3]/input[1]"}
+"2017-09-04 14:54:23","DEBUG",Finished Request
+"2017-09-04 14:54:23","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-8/clear {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-8"}
+"2017-09-04 14:54:23","DEBUG",Finished Request
+"2017-09-04 14:54:24","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div[3]/input[1]"}
+"2017-09-04 14:54:24","DEBUG",Finished Request
+"2017-09-04 14:54:24","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-8/value {"text": "1", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-8", "value": ["1"]}
+"2017-09-04 14:54:24","DEBUG",Finished Request
+"2017-09-04 14:54:25","DEBUG","ui_case_9_mult_review-1-3","点击开始验收"
+"2017-09-04 14:54:25","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div[3]/button"}
+"2017-09-04 14:54:25","DEBUG",Finished Request
+"2017-09-04 14:54:25","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.22268848847548806-9/click {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.22268848847548806-9"}
+"2017-09-04 14:54:25","DEBUG",Finished Request
+"2017-09-04 14:54:26","DEBUG","ui_case_9_mult_review-1-3","获取unit_id"
+"2017-09-04 14:54:26","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"image-panel\"]/div/div[1]"}
+"2017-09-04 14:54:26","DEBUG",Finished Request
+"2017-09-04 14:54:26","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.19663350190113826-1/attribute/id {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "id", "id": "0.19663350190113826-1"}
+"2017-09-04 14:54:26","DEBUG",Finished Request
+"2017-09-04 14:54:28","DEBUG","ui_case_9_mult_review-1-3","获取验收包id"
+"2017-09-04 14:54:28","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/url {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:28","DEBUG",Finished Request
+"2017-09-04 14:54:28","DEBUG","ui_case_9_mult_review-1-3","验收通过的验收包为：http://vendor.zzcrowd.com/publisher/stream-reviewing/514&fromPage=flow"
+"2017-09-04 14:54:28","DEBUG","ui_case_9_mult_review-1-3","查看任务池工作量统计页面在验收通过前的验收个数"
+"2017-09-04 14:54:28","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/statistics/flow/task-pools\");"}
+"2017-09-04 14:54:28","DEBUG",Finished Request
+"2017-09-04 14:54:29","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:29","DEBUG",Finished Request
+"2017-09-04 14:54:29","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-9378537a-a72d-4924-96a1-b7a4693aae7c"}
+"2017-09-04 14:54:29","DEBUG",Finished Request
+"2017-09-04 14:54:29","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-8"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-9"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-10"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-11/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-11"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[5]/td[1]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-12/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-12"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[6]/td[1]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-13/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-13"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[1]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-14/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-14"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[13]"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8223538984196166-15/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8223538984196166-15"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:30","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:54:30","DEBUG",Finished Request
+"2017-09-04 14:54:31","DEBUG","ui_case_9_mult_review-1-3","查看任务池工作量统计页面在验收通过前的验收完成个数"
+"2017-09-04 14:54:31","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/statistics/flow/task-pools\");"}
+"2017-09-04 14:54:32","DEBUG",Finished Request
+"2017-09-04 14:54:33","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:33","DEBUG",Finished Request
+"2017-09-04 14:54:33","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-3029500d-bd26-40c4-b0b0-05dd96ec103f"}
+"2017-09-04 14:54:33","DEBUG",Finished Request
+"2017-09-04 14:54:33","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-8"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-9"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-10"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-11/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-11"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[5]/td[1]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-12/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-12"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[6]/td[1]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-13/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-13"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[1]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-14/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-14"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[14]"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.5180563793739461-15/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.5180563793739461-15"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:34","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:54:34","DEBUG",Finished Request
+"2017-09-04 14:54:35","DEBUG","ui_case_9_mult_review-1-3","查看工作量汇总统计页面在验收通过前的验收总数"
+"2017-09-04 14:54:35","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/manager/statistic/task-type\");"}
+"2017-09-04 14:54:35","DEBUG",Finished Request
+"2017-09-04 14:54:37","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:37","DEBUG",Finished Request
+"2017-09-04 14:54:37","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-24200f17-b848-4110-b935-a10e4776c878"}
+"2017-09-04 14:54:37","DEBUG",Finished Request
+"2017-09-04 14:54:37","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.2248320642178281-6/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.2248320642178281-6"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.2248320642178281-7/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.2248320642178281-7"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.2248320642178281-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.2248320642178281-8"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.2248320642178281-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.2248320642178281-9"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[12]"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.2248320642178281-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.2248320642178281-10"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:38","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:54:38","DEBUG",Finished Request
+"2017-09-04 14:54:39","DEBUG","ui_case_9_mult_review-1-3","查看工作量汇总统计页面在验收通过前的验收通过总数"
+"2017-09-04 14:54:39","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/manager/statistic/task-type\");"}
+"2017-09-04 14:54:39","DEBUG",Finished Request
+"2017-09-04 14:54:40","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:40","DEBUG",Finished Request
+"2017-09-04 14:54:40","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-0ad0d5cc-bb40-4dd7-b01a-78814a28a0ab"}
+"2017-09-04 14:54:40","DEBUG",Finished Request
+"2017-09-04 14:54:40","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "info-text"}
+"2017-09-04 14:54:41","DEBUG",Finished Request
+"2017-09-04 14:54:41","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.27189493841571366-1/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.27189493841571366-1"}
+"2017-09-04 14:54:41","DEBUG",Finished Request
+"2017-09-04 14:54:41","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:41","DEBUG",Finished Request
+"2017-09-04 14:54:41","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:54:41","DEBUG",Finished Request
+"2017-09-04 14:54:41","DEBUG","ui_case_9_mult_review-1-3","查看我的工作量总统计页面在验收通过前的验收总数"
+"2017-09-04 14:54:41","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/me/statistic/task-type\");"}
+"2017-09-04 14:54:41","DEBUG",Finished Request
+"2017-09-04 14:54:43","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:43","DEBUG",Finished Request
+"2017-09-04 14:54:43","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-91ddf6b5-4ae0-46f9-8253-09e56e60d6b4"}
+"2017-09-04 14:54:43","DEBUG",Finished Request
+"2017-09-04 14:54:43","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3743992903330444-6/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3743992903330444-6"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3743992903330444-7/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3743992903330444-7"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3743992903330444-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3743992903330444-8"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3743992903330444-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3743992903330444-9"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[12]"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3743992903330444-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3743992903330444-10"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:44","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:54:44","DEBUG",Finished Request
+"2017-09-04 14:54:45","DEBUG","ui_case_9_mult_review-1-3","查看我的工作量汇总统计页面在验收通过前的验收通过总数"
+"2017-09-04 14:54:45","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/me/statistic/task-type\");"}
+"2017-09-04 14:54:45","DEBUG",Finished Request
+"2017-09-04 14:54:46","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:46","DEBUG",Finished Request
+"2017-09-04 14:54:46","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-6fa1b70c-cf3a-4936-b3d0-62a3fffae559"}
+"2017-09-04 14:54:46","DEBUG",Finished Request
+"2017-09-04 14:54:46","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "info-text"}
+"2017-09-04 14:54:47","DEBUG",Finished Request
+"2017-09-04 14:54:47","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.795484853581333-1/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.795484853581333-1"}
+"2017-09-04 14:54:48","DEBUG",Finished Request
+"2017-09-04 14:54:48","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:48","DEBUG",Finished Request
+"2017-09-04 14:54:48","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:54:48","DEBUG",Finished Request
+"2017-09-04 14:54:48","DEBUG","ui_case_9_mult_review-1-3","查看任务池进度页面在验收通过前的完成总数"
+"2017-09-04 14:54:48","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/spa/manager/taskflow/pool-progress?type=4\");"}
+"2017-09-04 14:54:48","DEBUG",Finished Request
+"2017-09-04 14:54:49","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:49","DEBUG",Finished Request
+"2017-09-04 14:54:49","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-f553a5c9-1055-4828-acca-d7bfe80fbcdd"}
+"2017-09-04 14:54:49","DEBUG",Finished Request
+"2017-09-04 14:54:49","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr"}
+"2017-09-04 14:54:50","DEBUG",Finished Request
+"2017-09-04 14:54:50","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:54:50","DEBUG",Finished Request
+"2017-09-04 14:54:50","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.49788714325358385-11/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.49788714325358385-11"}
+"2017-09-04 14:54:50","DEBUG",Finished Request
+"2017-09-04 14:54:50","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[14]"}
+"2017-09-04 14:54:50","DEBUG",Finished Request
+"2017-09-04 14:54:50","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.49788714325358385-12/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.49788714325358385-12"}
+"2017-09-04 14:54:50","DEBUG",Finished Request
+"2017-09-04 14:54:50","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:50","DEBUG",Finished Request
+"2017-09-04 14:54:50","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:54:50","DEBUG",Finished Request
+"2017-09-04 14:54:51","DEBUG","ui_case_9_mult_review-1-3","正在验收通过的unit_id为：8302"
+"2017-09-04 14:54:51","DEBUG","ui_case_9_mult_review-1-3","点击通过按钮"
+"2017-09-04 14:54:51","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "approve"}
+"2017-09-04 14:54:51","DEBUG",Finished Request
+"2017-09-04 14:54:51","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.19663350190113826-2/click {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.19663350190113826-2"}
+"2017-09-04 14:54:51","DEBUG",Finished Request
+"2017-09-04 14:54:53","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/accept_alert {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:53","DEBUG",Finished Request
+"2017-09-04 14:54:53","DEBUG","ui_case_9_mult_review-1-3","校验验收通过后验收包信息的正确性"
+"2017-09-04 14:54:53","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/spa/review/task-flow-jobs-manage?sorts=&page=1&per_page=10&\");"}
+"2017-09-04 14:54:53","DEBUG",Finished Request
+"2017-09-04 14:54:54","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:54:54","DEBUG",Finished Request
+"2017-09-04 14:54:54","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-f23a1c5d-c40a-47a3-9200-2d84f70adeaf"}
+"2017-09-04 14:54:54","DEBUG",Finished Request
+"2017-09-04 14:54:55","DEBUG","ui_case_9_mult_review-1-3","搜索框查询出验收包http://vendor.zzcrowd.com/publisher/stream-reviewing/514&fromPage=flow"
+"2017-09-04 14:54:55","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[1]/div[2]/div/input"}
+"2017-09-04 14:54:56","DEBUG",Finished Request
+"2017-09-04 14:54:56","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.524993944544256-1/value {"text": "http://vendor.zzcrowd.com/publisher/stream-reviewing/514&fromPage=flow", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.524993944544256-1", "value": ["h", "t", "t", "p", ":", "/", "/", "v", "e", "n", "d", "o", "r", ".", "z", "z", "c", "r", "o", "w", "d", ".", "c", "o", "m", "/", "p", "u", "b", "l", "i", "s", "h", "e", "r", "/", "s", "t", "r", "e", "a", "m", "-", "r", "e", "v", "i", "e", "w", "i", "n", "g", "/", "5", "1", "4", "&", "f", "r", "o", "m", "P", "a", "g", "e", "=", "f", "l", "o", "w"]}
+"2017-09-04 14:54:56","DEBUG",Finished Request
+"2017-09-04 14:54:58","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[1]/div[2]/div/button[1]"}
+"2017-09-04 14:54:58","DEBUG",Finished Request
+"2017-09-04 14:54:58","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.524993944544256-2/click {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.524993944544256-2"}
+"2017-09-04 14:54:58","DEBUG",Finished Request
+"2017-09-04 14:54:59","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr"}
+"2017-09-04 14:54:59","DEBUG",Finished Request
+"2017-09-04 14:55:00","DEBUG","ui_case_9_mult_review-1-3","验收包列表总共 0 条数据"
+"2017-09-04 14:55:00","ERROR","ui_case_9_mult_review-1-3","无验收包数据，执行停止,请确认数据"
+"2017-09-04 14:55:00","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:00","DEBUG",Finished Request
+"2017-09-04 14:55:00","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:00","DEBUG",Finished Request
+"2017-09-04 14:55:01","DEBUG","ui_case_9_mult_review-1-3","校验验收通过的操作评论"
+"2017-09-04 14:55:04","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/url {"url": "http://vendor.zzcrowd.com/manager/inspect-unit/8302", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:04","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","校验unit 8302 当前评论"
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","校验验收操作评论..."
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","获取验收员用户名"
+"2017-09-04 14:55:06","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"display-panel\"]/ul/li[2]/span[1]"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3890105088556237-1/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3890105088556237-1"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","获取验收员职位"
+"2017-09-04 14:55:06","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"display-panel\"]/ul/li[2]/span[2]"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3890105088556237-2/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3890105088556237-2"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","校验验收操作显示"
+"2017-09-04 14:55:06","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"display-panel\"]/ul/li[2]/span[3]"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3890105088556237-3/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3890105088556237-3"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","校验验收员操作结果"
+"2017-09-04 14:55:06","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"display-panel\"]/ul/li[2]/span[4]"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.3890105088556237-4/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.3890105088556237-4"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","unit 8302 当前评论显示正确，显示为：r, 验收员, 验收, 通过(笑脸)"
+"2017-09-04 14:55:06","DEBUG","ui_case_9_mult_review-1-3","查看任务池工作量统计页面在验收通过后的验收个数"
+"2017-09-04 14:55:06","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/statistics/flow/task-pools\");"}
+"2017-09-04 14:55:06","DEBUG",Finished Request
+"2017-09-04 14:55:07","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:07","DEBUG",Finished Request
+"2017-09-04 14:55:07","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-505855fc-93f2-42b3-94ef-cfd02a34a803"}
+"2017-09-04 14:55:07","DEBUG",Finished Request
+"2017-09-04 14:55:07","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-8"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-9"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-10"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-11/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-11"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[5]/td[1]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-12/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-12"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[6]/td[1]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-13/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-13"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[1]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-14/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-14"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[13]"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.8013296781679942-15/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.8013296781679942-15"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:09","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:09","DEBUG",Finished Request
+"2017-09-04 14:55:10","DEBUG","ui_case_9_mult_review-1-3","查看任务池工作量统计页面在验收通过后的验收完成个数"
+"2017-09-04 14:55:10","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/statistics/flow/task-pools\");"}
+"2017-09-04 14:55:10","DEBUG",Finished Request
+"2017-09-04 14:55:11","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:11","DEBUG",Finished Request
+"2017-09-04 14:55:11","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-82ce32ae-602f-40a4-8ba4-300f13194f91"}
+"2017-09-04 14:55:11","DEBUG",Finished Request
+"2017-09-04 14:55:11","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:55:12","DEBUG",Finished Request
+"2017-09-04 14:55:12","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:55:12","DEBUG",Finished Request
+"2017-09-04 14:55:12","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-8"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-9"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-10"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-11/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-11"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[5]/td[1]"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-12/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-12"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[6]/td[1]"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-13/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-13"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[1]"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-14/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-14"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[7]/td[14]"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.1882123394435049-15/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.1882123394435049-15"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:13","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:13","DEBUG",Finished Request
+"2017-09-04 14:55:14","DEBUG","ui_case_9_mult_review-1-3","查看工作量汇总统计页面在验收通过后的验收总数"
+"2017-09-04 14:55:14","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/manager/statistic/task-type\");"}
+"2017-09-04 14:55:14","DEBUG",Finished Request
+"2017-09-04 14:55:15","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:15","DEBUG",Finished Request
+"2017-09-04 14:55:15","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-371a9fe0-eb07-4967-9e2b-0a52b64abb46"}
+"2017-09-04 14:55:15","DEBUG",Finished Request
+"2017-09-04 14:55:15","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.776897868480505-6/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.776897868480505-6"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.776897868480505-7/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.776897868480505-7"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.776897868480505-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.776897868480505-8"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.776897868480505-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.776897868480505-9"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[12]"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.776897868480505-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.776897868480505-10"}
+"2017-09-04 14:55:16","DEBUG",Finished Request
+"2017-09-04 14:55:16","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:17","DEBUG",Finished Request
+"2017-09-04 14:55:17","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:17","DEBUG",Finished Request
+"2017-09-04 14:55:18","DEBUG","ui_case_9_mult_review-1-3","查看工作量汇总统计页面在验收通过后的验收通过总数"
+"2017-09-04 14:55:18","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/manager/statistic/task-type\");"}
+"2017-09-04 14:55:18","DEBUG",Finished Request
+"2017-09-04 14:55:19","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:19","DEBUG",Finished Request
+"2017-09-04 14:55:19","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-2fff931f-cc2d-439b-96bf-35415da93580"}
+"2017-09-04 14:55:19","DEBUG",Finished Request
+"2017-09-04 14:55:19","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "info-text"}
+"2017-09-04 14:55:20","DEBUG",Finished Request
+"2017-09-04 14:55:20","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.9033054124893345-1/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.9033054124893345-1"}
+"2017-09-04 14:55:20","DEBUG",Finished Request
+"2017-09-04 14:55:20","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:20","DEBUG",Finished Request
+"2017-09-04 14:55:20","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:20","DEBUG",Finished Request
+"2017-09-04 14:55:20","DEBUG","ui_case_9_mult_review-1-3","查看我的工作量总统计页面在验收通过后的验收总数"
+"2017-09-04 14:55:20","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/me/statistic/task-type\");"}
+"2017-09-04 14:55:20","DEBUG",Finished Request
+"2017-09-04 14:55:21","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:21","DEBUG",Finished Request
+"2017-09-04 14:55:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-6906eb20-d9b5-4ed2-930f-475221219d4a"}
+"2017-09-04 14:55:21","DEBUG",Finished Request
+"2017-09-04 14:55:21","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr"}
+"2017-09-04 14:55:22","DEBUG",Finished Request
+"2017-09-04 14:55:22","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:55:22","DEBUG",Finished Request
+"2017-09-04 14:55:22","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.9311878626085015-6/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.9311878626085015-6"}
+"2017-09-04 14:55:22","DEBUG",Finished Request
+"2017-09-04 14:55:22","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[2]/td[1]"}
+"2017-09-04 14:55:22","DEBUG",Finished Request
+"2017-09-04 14:55:22","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.9311878626085015-7/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.9311878626085015-7"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[3]/td[1]"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.9311878626085015-8/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.9311878626085015-8"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[1]"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.9311878626085015-9/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.9311878626085015-9"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"salary-list\"]/table/tbody/tr[4]/td[12]"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.9311878626085015-10/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.9311878626085015-10"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:23","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:23","DEBUG",Finished Request
+"2017-09-04 14:55:24","DEBUG","ui_case_9_mult_review-1-3","查看我的工作量汇总统计页面在验收通过后的验收通过总数"
+"2017-09-04 14:55:24","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/me/statistic/task-type\");"}
+"2017-09-04 14:55:24","DEBUG",Finished Request
+"2017-09-04 14:55:25","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:25","DEBUG",Finished Request
+"2017-09-04 14:55:25","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-7379cd3d-1312-45de-87d0-2893e2bd68df"}
+"2017-09-04 14:55:25","DEBUG",Finished Request
+"2017-09-04 14:55:25","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "id", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "info-text"}
+"2017-09-04 14:55:26","DEBUG",Finished Request
+"2017-09-04 14:55:26","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.6253167868187439-1/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.6253167868187439-1"}
+"2017-09-04 14:55:26","DEBUG",Finished Request
+"2017-09-04 14:55:26","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:26","DEBUG",Finished Request
+"2017-09-04 14:55:26","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:26","DEBUG",Finished Request
+"2017-09-04 14:55:26","DEBUG","ui_case_9_mult_review-1-3","查看任务池进度页面在验收通过后的完成总数"
+"2017-09-04 14:55:26","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/execute {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "args": [], "script": "window.open(\"http://vendor.zzcrowd.com/spa/manager/taskflow/pool-progress?type=4\");"}
+"2017-09-04 14:55:26","DEBUG",Finished Request
+"2017-09-04 14:55:27","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window_handles {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:27","DEBUG",Finished Request
+"2017-09-04 14:55:27","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-533b5e7f-c776-4f09-a532-3a84efa8e042"}
+"2017-09-04 14:55:27","DEBUG",Finished Request
+"2017-09-04 14:55:27","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/elements {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr"}
+"2017-09-04 14:55:29","DEBUG",Finished Request
+"2017-09-04 14:55:29","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[1]"}
+"2017-09-04 14:55:29","DEBUG",Finished Request
+"2017-09-04 14:55:29","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.03999354535523025-11/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.03999354535523025-11"}
+"2017-09-04 14:55:29","DEBUG",Finished Request
+"2017-09-04 14:55:29","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element {"using": "xpath", "sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/table/tbody/tr[1]/td[14]"}
+"2017-09-04 14:55:29","DEBUG",Finished Request
+"2017-09-04 14:55:29","DEBUG",GET http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/element/0.03999354535523025-12/text {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "id": "0.03999354535523025-12"}
+"2017-09-04 14:55:29","DEBUG",Finished Request
+"2017-09-04 14:55:29","DEBUG",DELETE http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d"}
+"2017-09-04 14:55:29","DEBUG",Finished Request
+"2017-09-04 14:55:29","DEBUG",POST http://127.0.0.1:57630/session/ce5a4d05d88a07beb0509a66b250b32d/window {"sessionId": "ce5a4d05d88a07beb0509a66b250b32d", "name": "CDwindow-b8d124eb-89d4-4bbd-b78f-978d43531469"}
+"2017-09-04 14:55:29","DEBUG",Finished Request
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-3","验收通过后的任务池工作量统计的验收次数统计正确，为：30"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-3","验收通过后的任务池工作量统计的验收完成总数统计正确，为：13"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-3","验收通过后的老的工作量统计的验收次数统计正确，为：13"
+"2017-09-04 14:55:30","ERROR","ui_case_9_mult_review-1-3","Current task executes failed, error message: invalid literal for int() with base 10: ''"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-3","End executing current task"
+"2017-09-04 14:55:30","INFO","ui_case_9_mult_review","1","3","Fail","86.13"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-4","Start to execute task: 4 - 多队列-验收流程-部分通过"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-4","Current task is not run because the param 'run' is 0"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-4","End executing current task"
+"2017-09-04 14:55:30","INFO","ui_case_9_mult_review","1","4","Skip","0.0"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-5","Start to execute task: 5 - 多队列-验收流程-test"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-5","Current task is not run because the param 'run' is 0"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1-5","End executing current task"
+"2017-09-04 14:55:30","INFO","ui_case_9_mult_review","1","5","Skip","0.001"
+"2017-09-04 14:55:30","INFO","ui_case_9_mult_review","1","NULL","Fail","86.15"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review-1","End executing test case: 1 - 流式多队列-验收"
+"2017-09-04 14:55:30","DEBUG","ui_case_9_mult_review","End executing suite: ui_case_9_mult_review"
+"2017-09-04 14:55:30","DEBUG","ui_case_10_mult_refute","Test suite 'ui_case_10_mult_refute' do not run because the param 'run' is 0"

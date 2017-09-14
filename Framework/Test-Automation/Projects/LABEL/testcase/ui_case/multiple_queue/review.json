@@ -1,0 +1,87 @@
+{
+    "id": "1",
+    "name": "流式多队列-验收",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "",
+        "mailList": []
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "多队列-验收流程-放弃",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.review",
+            "className": "",
+            "functionName": "review_giveup",
+            "params": {
+                "task_pool_id": "1"
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "多队列-验收流程-驳回",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.review",
+            "className": "",
+            "functionName": "review_reject",
+            "params": {
+                "work_flow_id": "1",
+                "task_pool_id": "1",
+                "task_name": "Face - 假脸识别"
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 3,
+            "name": "多队列-验收流程-通过",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.review",
+            "className": "",
+            "functionName": "review_approve",
+            "params": {
+                "work_flow_id": "1",
+                "task_pool_id": "1",
+                "task_name": "Face - 假脸识别"
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 4,
+            "name": "多队列-验收流程-部分通过",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.review",
+            "className": "",
+            "functionName": "review_part_approve",
+            "params": {
+                "work_flow_id": "23",
+                "task_pool_id": "11",
+                "task_name": "Face - 假脸识别"
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {"id": 5,
+            "name": "多队列-验收流程-test",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.review",
+            "className": "",
+            "functionName": "t",
+            "params": {
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

@@ -1,0 +1,33 @@
+{
+    "id": "1",
+    "name": "流式多队列-批驳",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "",
+        "mailList": []
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "多队列-批驳流程",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.refute",
+            "className": "",
+            "functionName": "refute",
+            "params": {
+                "publisher_id": "171",
+                "leader_n": 0,
+                "review_number": "1",
+                "sample_proportion": "1 (100)%",
+                "reject_number": "1(0)",
+                "part_approve": "否",
+                "refute_handle": "同意驳回"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

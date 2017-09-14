@@ -8,16 +8,13 @@
         "mailList": []
     },
     "tasks": [
-
         {
             "id": 1,
-            "name": "登录",
-            "moduleName": "Projects.LABEL.UI.common.common",
+            "name": "任务池管理-新建任务池",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
             "className": "",
-            "functionName": "login",
+            "functionName": "create_task_pool",
             "params": {
-                "username": "r",
-                "passwd": "dev"
             },
             "run": 0,
             "realtime": 1,
@@ -26,13 +23,39 @@
         },
         {
             "id": 2,
-            "name": "管理员分配任务",
-            "moduleName": "Projects.LABEL.UI.page.manage_project",
+            "name": "任务池管理-修改任务池",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
             "className": "",
-            "functionName": "stream_assign",
+            "functionName": "update_task_pool",
             "params": {
             },
-            "run": 1,
+            "run": 0,
+            "realtime": 0,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 3,
+            "name": "任务池管理-新增工作流",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
+            "className": "",
+            "functionName": "create_work_flow",
+            "params": {
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 4,
+            "name": "任务池管理-修改工作流",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
+            "className": "",
+            "functionName": "update_work_flow",
+            "params": {
+            },
+            "run": 0,
             "realtime": 1,
             "expectedError": "",
             "globalReturnedValue": 0

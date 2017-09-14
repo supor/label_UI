@@ -1,0 +1,27 @@
+{
+    "id": "1",
+    "name": "流式多队列-抽查",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "",
+        "mailList": []
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "多队列-抽查流程",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.sample",
+            "className": "",
+            "functionName": "sample",
+            "params": {
+                "work_flow_id": "1"
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

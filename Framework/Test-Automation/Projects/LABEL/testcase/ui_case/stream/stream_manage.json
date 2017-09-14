@@ -11,12 +11,64 @@
         {
             "id": 1,
             "name": "管理员分配任务",
-            "moduleName": "Projects.LABEL.UI.page.manage_project",
+            "moduleName": "Projects.LABEL.UI.page.stream.manage_project",
             "className": "",
             "functionName": "stream_assign",
             "params": {
             },
-            "run": 1,
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "标注员标注流程",
+            "moduleName": "Projects.LABEL.UI.page.stream.edit",
+            "className": "",
+            "functionName": "edit",
+            "params": {
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 3,
+            "name": "检查员检查流程",
+            "moduleName": "Projects.LABEL.UI.page.stream.check",
+            "className": "",
+            "functionName": "stream_check",
+            "params": {
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 4,
+            "name": "抽查员抽查流程",
+            "moduleName": "Projects.LABEL.UI.page.stream.sample",
+            "className": "",
+            "functionName": "stream_sample",
+            "params": {
+            },
+            "run": 0,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 5,
+            "name": "验收员验收流程",
+            "moduleName": "Projects.LABEL.UI.page.stream.review",
+            "className": "",
+            "functionName": "stream_review",
+            "params": {
+            },
+            "run": 0,
             "realtime": 1,
             "expectedError": "",
             "globalReturnedValue": 0

@@ -1,0 +1,86 @@
+"2017-09-08 15:40:12","DEBUG","ui_case_1_stream","Test suite 'ui_case_1_stream' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_2_task_manage","Test suite 'ui_case_2_task_manage' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_3_task_pool_manage","Test suite 'ui_case_3_task_pool_manage' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_4_mult_edit_statistic","Test suite 'ui_case_4_mult_edit_statistic' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_6_mult_edit","Test suite 'ui_case_6_mult_edit' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_5_mult_check_statistic","Test suite 'ui_case_5_mult_check_statistic' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_7_mult_check","Test suite 'ui_case_7_mult_check' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_8_mult_sample","Test suite 'ui_case_8_mult_sample' do not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review","Start to execute suite: ui_case_9_mult_review"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1","Start to execute test case: 1 - 流式多队列-验收"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-1","Start to execute task: 1 - 多队列-验收流程-放弃"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-1","Current task is not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-1","End executing current task"
+"2017-09-08 15:40:12","INFO","ui_case_9_mult_review","1","1","Skip","0.0"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-2","Start to execute task: 2 - 多队列-验收流程-驳回"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-2","Current task is not run because the param 'run' is 0"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-2","End executing current task"
+"2017-09-08 15:40:12","INFO","ui_case_9_mult_review","1","2","Skip","0.0"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-3","Start to execute task: 3 - 多队列-验收流程-通过"
+"2017-09-08 15:40:12","DEBUG","ui_case_9_mult_review-1-3","Start to execute function 'review_approve'"
+"2017-09-08 15:40:15","DEBUG",POST http://127.0.0.1:51641/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+"2017-09-08 15:40:17","DEBUG",Finished Request
+"2017-09-08 15:40:17","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/window/current/maximize {"windowHandle": "current", "sessionId": "1ec39d171793c138314a6ba2936ef196"}
+"2017-09-08 15:40:18","DEBUG",Finished Request
+"2017-09-08 15:40:18","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/url {"url": "http://vendor.zzcrowd.com/", "sessionId": "1ec39d171793c138314a6ba2936ef196"}
+"2017-09-08 15:40:19","DEBUG",Finished Request
+"2017-09-08 15:40:19","DEBUG","ui_case_9_mult_review-1-3","启动chrome浏览器..."
+"2017-09-08 15:40:21","DEBUG","ui_case_9_mult_review-1-3","点击主页的登录按钮"
+"2017-09-08 15:40:21","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "xpath", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "//*[@id='navbar-collapse-1']/ul/li[5]/a"}
+"2017-09-08 15:40:21","DEBUG",Finished Request
+"2017-09-08 15:40:21","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.6862825918542874-1/click {"sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.6862825918542874-1"}
+"2017-09-08 15:40:21","DEBUG",Finished Request
+"2017-09-08 15:40:21","DEBUG","ui_case_9_mult_review-1-3","输入用户名"
+"2017-09-08 15:40:21","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "id", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "username"}
+"2017-09-08 15:40:21","DEBUG",Finished Request
+"2017-09-08 15:40:21","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.8385267047503477-1/value {"text": "r", "sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.8385267047503477-1", "value": ["r"]}
+"2017-09-08 15:40:21","DEBUG",Finished Request
+"2017-09-08 15:40:22","DEBUG","ui_case_9_mult_review-1-3","输入密码"
+"2017-09-08 15:40:22","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "id", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "password"}
+"2017-09-08 15:40:22","DEBUG",Finished Request
+"2017-09-08 15:40:22","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.8385267047503477-2/value {"text": "vendor", "sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.8385267047503477-2", "value": ["v", "e", "n", "d", "o", "r"]}
+"2017-09-08 15:40:22","DEBUG",Finished Request
+"2017-09-08 15:40:23","DEBUG","ui_case_9_mult_review-1-3","点击登录按钮"
+"2017-09-08 15:40:23","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "id", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "submit"}
+"2017-09-08 15:40:24","DEBUG",Finished Request
+"2017-09-08 15:40:24","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.8385267047503477-3/click {"sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.8385267047503477-3"}
+"2017-09-08 15:40:24","DEBUG",Finished Request
+"2017-09-08 15:40:25","DEBUG",GET http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/url {"sessionId": "1ec39d171793c138314a6ba2936ef196"}
+"2017-09-08 15:40:25","DEBUG",Finished Request
+"2017-09-08 15:40:25","DEBUG","ui_case_9_mult_review-1-3","登录成功 页面跳转正确"
+"2017-09-08 15:40:26","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/url {"url": "http://vendor.zzcrowd.com/spa/review/task-flow-jobs?sorts=&page=1&per_page=10&continuable=1#1", "sessionId": "1ec39d171793c138314a6ba2936ef196"}
+"2017-09-08 15:40:27","DEBUG",Finished Request
+"2017-09-08 15:40:28","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/elements {"using": "xpath", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr"}
+"2017-09-08 15:40:28","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-3","验收列表总共 2 条数据"
+"2017-09-08 15:40:29","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "xpath", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[1]/td[1]"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG",GET http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.5585013465821826-3/text {"sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.5585013465821826-3"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "xpath", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[1]/td[5]"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG",GET http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.5585013465821826-4/text {"sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.5585013465821826-4"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "xpath", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[2]/td[1]"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG",GET http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.5585013465821826-5/text {"sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.5585013465821826-5"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG",POST http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element {"using": "xpath", "sessionId": "1ec39d171793c138314a6ba2936ef196", "value": "//*[@id=\"beginReview\"]/div/div[2]/table/tbody/tr[2]/td[5]"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","DEBUG",GET http://127.0.0.1:51641/session/1ec39d171793c138314a6ba2936ef196/element/0.5585013465821826-6/text {"sessionId": "1ec39d171793c138314a6ba2936ef196", "id": "0.5585013465821826-6"}
+"2017-09-08 15:40:29","DEBUG",Finished Request
+"2017-09-08 15:40:29","ERROR","ui_case_9_mult_review-1-3","Current task executes failed, error message: 任务池 1 无待验收的数据，执行停止，请确认数据"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-3","End executing current task"
+"2017-09-08 15:40:29","INFO","ui_case_9_mult_review","1","3","Fail","17.67"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-4","Start to execute task: 4 - 多队列-验收流程-部分通过"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-4","Current task is not run because the param 'run' is 0"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-4","End executing current task"
+"2017-09-08 15:40:29","INFO","ui_case_9_mult_review","1","4","Skip","0.0"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-5","Start to execute task: 5 - 多队列-验收流程-test"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-5","Current task is not run because the param 'run' is 0"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1-5","End executing current task"
+"2017-09-08 15:40:29","INFO","ui_case_9_mult_review","1","5","Skip","0.0"
+"2017-09-08 15:40:29","INFO","ui_case_9_mult_review","1","NULL","Fail","17.701"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review-1","End executing test case: 1 - 流式多队列-验收"
+"2017-09-08 15:40:29","DEBUG","ui_case_9_mult_review","End executing suite: ui_case_9_mult_review"
+"2017-09-08 15:40:29","DEBUG","ui_case_10_mult_refute","Test suite 'ui_case_10_mult_refute' do not run because the param 'run' is 0"

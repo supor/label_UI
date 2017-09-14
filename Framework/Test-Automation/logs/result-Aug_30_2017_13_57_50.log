@@ -1,0 +1,8 @@
+"ui_case_4_mult_edit_statistic","1","1","Fail","15.243"
+"ui_case_4_mult_edit_statistic","1","2","Fail","14.932"
+"ui_case_4_mult_edit_statistic","1","NULL","Fail","30.207"
+"ui_case_5_mult_check_statistic","1","1","Pass","55.198"
+"ui_case_5_mult_check_statistic","1","2","Pass","48.934"
+"ui_case_5_mult_check_statistic","1","3","Pass","76.157"
+"ui_case_5_mult_check_statistic","1","4","Pass","68.193"
+"ui_case_5_mult_check_statistic","1","NULL","Pass","248.484"
