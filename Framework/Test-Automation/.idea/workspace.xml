@@ -15,9 +15,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Test-Automation$mysqlManagments.coverage" NAME="mysqlManagments Coverage Results" MODIFIED="1468067269710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/PRIC/RestAPI/mysql" />
     <SUITE FILE_PATH="coverage/Test_Automation$Unittests_in_taf_framework_py.coverage" NAME="Unittests in taf_framework.py Coverage Results" MODIFIED="1498627357352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
-    <SUITE FILE_PATH="coverage/Test_Automation$taf_framework.coverage" NAME="taf_framework Coverage Results" MODIFIED="1505375816532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/Test_Automation$taf_framework.coverage" NAME="taf_framework Coverage Results" MODIFIED="1505811476258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
     <SUITE FILE_PATH="coverage/Test-Automation$test.coverage" NAME="test Coverage Results" MODIFIED="1470300848990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Test_Automation$test.coverage" NAME="test Coverage Results" MODIFIED="1505112922039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Test_Automation$test.coverage" NAME="test Coverage Results" MODIFIED="1505379252386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Test-Automation$taf_framework.coverage" NAME="taf_framework Coverage Results" MODIFIED="1472560482188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
     <SUITE FILE_PATH="coverage/Test-Automation$apiManagments.coverage" NAME="apiManagments Coverage Results" MODIFIED="1469004841191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/PRIC/RestAPI/api" />
     <SUITE FILE_PATH="coverage/Test_Automation$common.coverage" NAME="common Coverage Results" MODIFIED="1500980028658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/LABEL/UI/common" />
@@ -35,8 +35,8 @@
       <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/common/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="379" column="47" lean-forward="false" selection-start-line="379" selection-start-column="33" selection-end-line="379" selection-end-column="47" />
+            <state relative-caret-position="-2093">
+              <caret line="203" column="4" lean-forward="false" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="4" />
               <folding>
                 <element signature="e#30#39#0" expanded="true" />
               </folding>
@@ -47,66 +47,8 @@
       <file leaf-file-name="pro_config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/LABEL/pro_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/check.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="100" column="112" lean-forward="false" selection-start-line="100" selection-start-column="112" selection-end-line="100" selection-end-column="112" />
-              <folding>
-                <element signature="e#245#5133#0" expanded="false" />
-                <element signature="e#5253#15622#0" expanded="false" />
-                <element signature="e#15703#25586#0" expanded="false" />
-                <element signature="e#37815#47784#0" expanded="false" />
-                <marker date="1505375298236" expanded="false" signature="25645:37751" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="review.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/review.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="182" column="66" lean-forward="false" selection-start-line="182" selection-start-column="56" selection-end-line="182" selection-end-column="66" />
-              <folding>
-                <element signature="e#26#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/main.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-262">
-              <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="review.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/review.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_statistic.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/edit_statistic.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            <state relative-caret-position="100">
+              <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -115,14 +57,90 @@
       <file leaf-file-name="edit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/edit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
-              <caret line="204" column="76" lean-forward="true" selection-start-line="204" selection-start-column="76" selection-end-line="204" selection-end-column="76" />
+            <state relative-caret-position="-875">
+              <caret line="112" column="85" lean-forward="false" selection-start-line="112" selection-start-column="85" selection-end-line="112" selection-end-column="85" />
               <folding>
                 <element signature="e#26#37#0" expanded="true" />
                 <element signature="e#222#3451#0" expanded="false" />
-                <element signature="e#12807#12949#0" expanded="false" />
-                <element signature="e#13133#22445#0" expanded="false" />
+                <element signature="e#13487#13629#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/review.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="904" column="61" lean-forward="true" selection-start-line="904" selection-start-column="61" selection-end-line="904" selection-end-column="61" />
+              <folding>
+                <element signature="e#26#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/review.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1975">
+              <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage_group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/manage_group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_pool_manage.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/task_pool_manage.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/check.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1686">
+              <caret line="175" column="60" lean-forward="false" selection-start-line="175" selection-start-column="60" selection-end-line="175" selection-end-column="60" />
+              <folding>
+                <element signature="e#245#5133#0" expanded="false" />
+                <element signature="e#16749#26632#0" expanded="false" />
+                <element signature="e#26696#38797#0" expanded="false" />
+                <element signature="e#38861#48830#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_statistic.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/check_statistic.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/main.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1050">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,8 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>text_2</find>
-      <find>get_review_unit_id</find>
       <find>False</find>
       <find>43</find>
       <find>re.</find>
@@ -162,12 +178,14 @@
       <find>验收驳回</find>
       <find>_driver,</find>
       <find>statistic</find>
-      <find>statistics</find>
       <find>edit</find>
-      <find>POOL_PROGRESS_URL</find>
       <find>1.</find>
-      <find>通过</find>
       <find>跳过</find>
+      <find>通过</find>
+      <find>statistics</find>
+      <find>autocomplete-pool_leaders</find>
+      <find>get_tex</find>
+      <find>POOL_PROGRESS_URL</find>
     </findStrings>
     <replaceStrings>
       <replace>config</replace>
@@ -192,18 +210,16 @@
       <replace>_driver2,</replace>
       <replace>检查</replace>
       <replace>check</replace>
-      <replace>driver</replace>
       <replace>2.</replace>
       <replace>通过</replace>
-      <replace>跳过通过</replace>
       <replace>提交</replace>
+      <replace>跳过通过</replace>
+      <replace>driver</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Projects/PRIC/testcase/api/test_p_7.json" />
-        <option value="$PROJECT_DIR$/Projects/PRIC/testcase/test_clean.json" />
         <option value="$PROJECT_DIR$/Driver/mysqlDriver.py" />
         <option value="$PROJECT_DIR$/Projects/PRIC/RestAPI/mysql/mysqlManagments.py" />
         <option value="$PROJECT_DIR$/Projects/PRIC/RestAPI/api/apiManagments.py" />
@@ -244,14 +260,16 @@
         <option value="$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/task_pool_manage.json" />
         <option value="$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/sample.py" />
         <option value="$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/refute.py" />
-        <option value="$PROJECT_DIR$/test/test.py" />
-        <option value="$PROJECT_DIR$/Projects/LABEL/pro_config.py" />
-        <option value="$PROJECT_DIR$/Projects/LABEL/UI/common/common.py" />
         <option value="$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/edit_statistic.json" />
         <option value="$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/review.json" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/group_manage.json" />
+        <option value="$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/manage_group.py" />
+        <option value="$PROJECT_DIR$/Projects/LABEL/pro_config.py" />
         <option value="$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/review.py" />
-        <option value="$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/edit.py" />
+        <option value="$PROJECT_DIR$/Projects/LABEL/UI/common/common.py" />
         <option value="$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/check.py" />
+        <option value="$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/edit.py" />
         <option value="$PROJECT_DIR$/Projects/LABEL/testcase/main.json" />
       </list>
     </option>
@@ -263,10 +281,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-223" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -544,34 +562,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Automation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Automation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Automation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Automation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Driver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -583,17 +573,17 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\ziguan_api_test\Beebank-Test\Framework\Test-Automation\Projects\LABEL\testcase\ui_case\multiple_queue" />
-      <recent name="D:\code\ziguan_api_test\Beebank-Test\Framework\Test-Automation\Projects\LABEL\testcase\ui_case\stream" />
-      <recent name="D:\code\ziguan_api_test\Beebank-Test\Framework\Test-Automation\Projects\LABEL\testcase\ui_case" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\label_UI\Framework\Test-Automation\Projects\LABEL\testcase\ui_case\multiple_queue" />
       <recent name="D:\label_UI\Framework\Test-Automation\Projects\LABEL\UI\page\multiqueue" />
       <recent name="D:\label_UI\Framework\Test-Automation\Projects\LABEL\UI\page\online" />
       <recent name="D:\label_UI\Framework\Test-Automation\Projects\LABEL\testcase\ui_case\stream" />
       <recent name="D:\label_UI\Framework\Test-Automation\Projects\LABEL\UI\page\stream" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\ziguan_api_test\Beebank-Test\Framework\Test-Automation\Projects\LABEL\testcase\ui_case\multiple_queue" />
+      <recent name="D:\code\ziguan_api_test\Beebank-Test\Framework\Test-Automation\Projects\LABEL\testcase\ui_case\stream" />
+      <recent name="D:\code\ziguan_api_test\Beebank-Test\Framework\Test-Automation\Projects\LABEL\testcase\ui_case" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -946,18 +936,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-223" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.18003026" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07583965" sideWeight="0.8199697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14566284" sideWeight="0.8199697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5362947" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21276596" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4171181" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1011,38 +1001,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Projects/LABEL/RestAPI/api/apiManagments.py</url>
-          <line>21</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Projects/LABEL/RestAPI/api/apiManagments.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Projects/LABEL/RestAPI/api/apiManagments.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Projects/LABEL/RestAPI/mysql/mysqlManagments.py</url>
-          <line>116</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Projects/LABEL/RestAPI/api/apiManagments.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/Projects/LABEL/RestAPI/mysql/mysqlManagments.py</url>
           <line>69</line>
           <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Projects/LABEL/RestAPI/api/apiManagments.py</url>
-          <line>151</line>
-          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/manage_task_pool.py</url>
@@ -1058,17 +1019,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework/taf_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/task_pool_manage.json" />
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/settings.py" />
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/sample.py" />
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/manage_project.py" />
     <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/review.py" />
     <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/stream/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1282,50 +1232,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/task_manage.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/check_statistic.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-758">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/task_pool_manage.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/refute.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/pro_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1346,47 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/review.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="182" column="66" lean-forward="false" selection-start-line="182" selection-start-column="56" selection-end-line="182" selection-end-column="66" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/common/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="379" column="47" lean-forward="false" selection-start-line="379" selection-start-column="33" selection-end-line="379" selection-end-column="47" />
-          <folding>
-            <element signature="e#30#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/main.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/edit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="204" column="76" lean-forward="true" selection-start-line="204" selection-start-column="76" selection-end-line="204" selection-end-column="76" />
-          <folding>
-            <element signature="e#26#37#0" expanded="true" />
-            <element signature="e#222#3451#0" expanded="false" />
-            <element signature="e#12807#12949#0" expanded="false" />
-            <element signature="e#13133#22445#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/edit_statistic.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -1395,25 +1264,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="266" column="9" lean-forward="true" selection-start-line="266" selection-start-column="9" selection-end-line="266" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/RestAPI/api/apiManagments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-894">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#1970#2031#0" expanded="false" />
+            <element signature="e#2069#2740#0" expanded="false" />
+            <element signature="e#2785#2919#0" expanded="false" />
+            <element signature="e#3043#5102#0" expanded="false" />
+            <element signature="e#5243#14808#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/RestAPI/mysql/mysqlManagments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/test_clean.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/task_manage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/group_manage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/manage_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/pro_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/review.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
+        <state relative-caret-position="1975">
           <caret line="79" column="20" lean-forward="false" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/review.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="904" column="61" lean-forward="true" selection-start-line="904" selection-start-column="61" selection-end-line="904" selection-end-column="61" />
+          <folding>
+            <element signature="e#26#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/check_statistic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="100" column="112" lean-forward="false" selection-start-line="100" selection-start-column="112" selection-end-line="100" selection-end-column="112" />
+        <state relative-caret-position="-1686">
+          <caret line="175" column="60" lean-forward="false" selection-start-line="175" selection-start-column="60" selection-end-line="175" selection-end-column="60" />
           <folding>
             <element signature="e#245#5133#0" expanded="false" />
-            <element signature="e#5253#15622#0" expanded="false" />
-            <element signature="e#15703#25586#0" expanded="false" />
-            <element signature="e#37815#47784#0" expanded="false" />
-            <marker date="1505375298236" expanded="false" signature="25645:37751" ph="..." />
+            <element signature="e#16749#26632#0" expanded="false" />
+            <element signature="e#26696#38797#0" expanded="false" />
+            <element signature="e#38861#48830#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/common/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2093">
+          <caret line="203" column="4" lean-forward="false" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/UI/page/multiqueue/edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-875">
+          <caret line="112" column="85" lean-forward="false" selection-start-line="112" selection-start-column="85" selection-end-line="112" selection-end-column="85" />
+          <folding>
+            <element signature="e#26#37#0" expanded="true" />
+            <element signature="e#222#3451#0" expanded="false" />
+            <element signature="e#13487#13629#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/main.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/LABEL/testcase/ui_case/multiple_queue/task_pool_manage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

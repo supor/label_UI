@@ -126,6 +126,11 @@ def check_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.
                         '//*[@id="subjob-list-body"]/table/tbody/tr[%s]/td[7]/a' % str(i)).click()
                     sleep(config.STIME)
 
+                    job_id = common.get_text(_driver.find_element_by_xpath(
+                        '//*[@id="display-panel"]/ol/li[3]/span').text, 0)
+                    unit_id = _driver.find_element_by_id("unit_id").text
+                    logger.write_debug(u"提交unit %s" % unit_id)
+
                     logger.write_debug(u"1-查看在检查跳过通过前各统计数据")
                     logger.write_debug(u"1.1-查看任务池工作量统计页面在跳过通过前的检查个数")
                     before_check_number = common.task_pool_statistic(_driver, task_pool_id, "7")
@@ -157,18 +162,22 @@ def check_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.
                     if sample == "false":
                         logger.write_debug(u"1.9-查看任务池进度页面在检查跳过通过前的待验收总数")
                         before_to_next_number = common.progress_statistics(_driver, task_pool_id, "10")
+
+                        logger.write_debug(u"1.10-查看项目列表页面在检查跳过前的待验收总数")
+                        before_job_to_next_number = common.job_progress_statistic(_driver, job_id, "13")
                     else:
                         logger.write_debug(u"1.9-查看任务池进度页面在检查跳过通过前的待抽查总数")
                         before_to_next_number = common.progress_statistics(_driver, task_pool_id, "8")
+
+                        logger.write_debug(u"1.10-查看项目列表页面在检查跳过前的待抽查总数")
+                        before_job_to_next_number = common.job_progress_statistic(_driver, job_id, "12")
                         
                     logger.write_debug(u"检查-修改为跳过")
-                    unit_id = _driver.find_element_by_id("unit_id").text
                     common.find_by_xpath(_driver, '//*[@id="opt-area-check"]/div[2]/div[1]/button[2]')
                     # 点击跳过
                     common.find_by_id(_driver, "updateSkip")
                     common.find_by_xpath(_driver, '//*[@id="reason-dialog"]/div/div[2]/button')
                     common.find_by_xpath(_driver, '/html/body/div[3]/div/div/div[3]/button')
-                    logger.write_debug(u"提交unit %s" % unit_id)
                     common.find_by_id(_driver, 'next2')
 
                     logger.write_debug(u"2-查看检查跳过通过后的各统计数据")
@@ -201,9 +210,15 @@ def check_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.
                     if sample == "false":
                         logger.write_debug(u"2.9-查看任务池进度页面在检查跳过通过后的待验收总数")
                         after_to_next_number = common.progress_statistics(_driver, task_pool_id, "10")
+
+                        logger.write_debug(u"2.10-查看项目列表页面在检查跳过后的待验收总数")
+                        after_job_to_next_number = common.job_progress_statistic(_driver, job_id, "13")
                     else:
                         logger.write_debug(u"2.9-查看任务池进度页面在检查跳过通过后的待抽查总数")
                         after_to_next_number = common.progress_statistics(_driver, task_pool_id, "8")
+
+                        logger.write_debug(u"2.10-查看项目列表页面在检查跳过后的待抽查总数")
+                        after_job_to_next_number = common.job_progress_statistic(_driver, job_id, "12")
 
                     logger.write_debug(u"3-校验检查跳过通过后各统计数据的正确性")
                     common.check_statistic(u"3.1-检查跳过通过", u"任务池工作量统计", u"检查个数",
@@ -244,6 +259,8 @@ def check_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.
                                         after_my_user_number[2], after_my_user_number[3])
                     common.check_statistic(u"3.9-检查跳过通过", u"任务池进度", u"待抽查/验收个数",
                                            before_to_next_number, after_to_next_number)
+                    common.check_statistic(u"3.10-检查跳过通过", u"项目列表进度", u"待抽查/待验收个数",
+                                           before_job_to_next_number, after_job_to_next_number)
 
                     break
                 else:

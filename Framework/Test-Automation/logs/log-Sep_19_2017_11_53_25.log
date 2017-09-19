@@ -1,0 +1,123 @@
+"2017-09-19 11:53:25","DEBUG","ui_case_1_stream","Test suite 'ui_case_1_stream' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_2_task_manage","Test suite 'ui_case_2_task_manage' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_3_task_pool_manage","Test suite 'ui_case_3_task_pool_manage' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_4_mult_edit_statistic","Test suite 'ui_case_4_mult_edit_statistic' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_6_mult_edit","Test suite 'ui_case_6_mult_edit' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_5_mult_check_statistic","Test suite 'ui_case_5_mult_check_statistic' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_7_mult_check","Test suite 'ui_case_7_mult_check' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_8_mult_sample","Test suite 'ui_case_8_mult_sample' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_9_mult_review","Test suite 'ui_case_9_mult_review' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_10_mult_refute","Test suite 'ui_case_10_mult_refute' do not run because the param 'run' is 0"
+"2017-09-19 11:53:25","DEBUG","ui_case_11_mult_refute","Start to execute suite: ui_case_11_mult_refute"
+"2017-09-19 11:53:25","DEBUG","ui_case_11_mult_refute-1","Start to execute test case: 1 - 流式多队列-小组管理"
+"2017-09-19 11:53:25","DEBUG","ui_case_11_mult_refute-1-1","Start to execute task: 1 - 小组管理-新增小组"
+"2017-09-19 11:53:25","DEBUG","ui_case_11_mult_refute-1-1","Start to execute function 'create_group'"
+"2017-09-19 11:53:26","DEBUG","ui_case_11_mult_refute-1-1","管理员登录"
+"2017-09-19 11:53:28","DEBUG",POST http://127.0.0.1:53285/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+"2017-09-19 11:53:29","DEBUG",Finished Request
+"2017-09-19 11:53:29","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/window/current/maximize {"windowHandle": "current", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c"}
+"2017-09-19 11:53:31","DEBUG",Finished Request
+"2017-09-19 11:53:31","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/url {"url": "http://vendor.zzcrowd.com/", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c"}
+"2017-09-19 11:53:32","DEBUG",Finished Request
+"2017-09-19 11:53:32","DEBUG","ui_case_11_mult_refute-1-1","启动chrome浏览器..."
+"2017-09-19 11:53:32","DEBUG","ui_case_11_mult_refute-1-1","点击主页的登录按钮"
+"2017-09-19 11:53:32","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id='navbar-collapse-1']/ul/li[5]/a"}
+"2017-09-19 11:53:32","DEBUG",Finished Request
+"2017-09-19 11:53:32","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.001906932963742225-1/click {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.001906932963742225-1"}
+"2017-09-19 11:53:32","DEBUG",Finished Request
+"2017-09-19 11:53:32","DEBUG","ui_case_11_mult_refute-1-1","输入用户名"
+"2017-09-19 11:53:32","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "id", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "username"}
+"2017-09-19 11:53:32","DEBUG",Finished Request
+"2017-09-19 11:53:32","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "id", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "username"}
+"2017-09-19 11:53:33","DEBUG",Finished Request
+"2017-09-19 11:53:33","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.09753178345936764-1/value {"text": "r", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.09753178345936764-1", "value": ["r"]}
+"2017-09-19 11:53:33","DEBUG",Finished Request
+"2017-09-19 11:53:33","DEBUG","ui_case_11_mult_refute-1-1","输入密码"
+"2017-09-19 11:53:33","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "id", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "password"}
+"2017-09-19 11:53:33","DEBUG",Finished Request
+"2017-09-19 11:53:33","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "id", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "password"}
+"2017-09-19 11:53:33","DEBUG",Finished Request
+"2017-09-19 11:53:33","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.09753178345936764-2/value {"text": "vendor", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.09753178345936764-2", "value": ["v", "e", "n", "d", "o", "r"]}
+"2017-09-19 11:53:33","DEBUG",Finished Request
+"2017-09-19 11:53:34","DEBUG","ui_case_11_mult_refute-1-1","点击登录按钮"
+"2017-09-19 11:53:34","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "id", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "submit"}
+"2017-09-19 11:53:34","DEBUG",Finished Request
+"2017-09-19 11:53:34","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "id", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "submit"}
+"2017-09-19 11:53:34","DEBUG",Finished Request
+"2017-09-19 11:53:34","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.09753178345936764-3/click {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.09753178345936764-3"}
+"2017-09-19 11:53:34","DEBUG",Finished Request
+"2017-09-19 11:53:35","DEBUG",GET http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/url {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c"}
+"2017-09-19 11:53:35","DEBUG",Finished Request
+"2017-09-19 11:53:35","DEBUG","ui_case_11_mult_refute-1-1","登录成功 页面跳转正确"
+"2017-09-19 11:53:35","DEBUG","ui_case_11_mult_refute-1-1","进入小组管理页面"
+"2017-09-19 11:53:35","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/url {"url": "http://vendor.zzcrowd.com/spa/manager/team/teamList", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c"}
+"2017-09-19 11:53:36","DEBUG",Finished Request
+"2017-09-19 11:53:36","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/div/div[1]"}
+"2017-09-19 11:53:36","DEBUG",Finished Request
+"2017-09-19 11:53:36","DEBUG",GET http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-1/text {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-1"}
+"2017-09-19 11:53:36","DEBUG",Finished Request
+"2017-09-19 11:53:36","DEBUG","ui_case_11_mult_refute-1-1","最后一条任务池的id为：12"
+"2017-09-19 11:53:36","DEBUG","ui_case_11_mult_refute-1-1","新增-小组。。。"
+"2017-09-19 11:53:37","DEBUG","ui_case_11_mult_refute-1-1","1-新增小组"
+"2017-09-19 11:53:37","DEBUG","ui_case_11_mult_refute-1-1","1.1-点击新增按钮"
+"2017-09-19 11:53:37","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[1]/div[2]/div/button"}
+"2017-09-19 11:53:37","DEBUG",Finished Request
+"2017-09-19 11:53:37","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[1]/div[2]/div/button"}
+"2017-09-19 11:53:37","DEBUG",Finished Request
+"2017-09-19 11:53:37","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-2/click {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-2"}
+"2017-09-19 11:53:37","DEBUG",Finished Request
+"2017-09-19 11:53:37","DEBUG",GET http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/url {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c"}
+"2017-09-19 11:53:37","DEBUG",Finished Request
+"2017-09-19 11:53:37","DEBUG","ui_case_11_mult_refute-1-1","新增小组页面 页面跳转正确"
+"2017-09-19 11:53:37","DEBUG","ui_case_11_mult_refute-1-1","1.2-输入小组名称..."
+"2017-09-19 11:53:37","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[1]/div/div/input"}
+"2017-09-19 11:53:37","DEBUG",Finished Request
+"2017-09-19 11:53:37","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[1]/div/div/input"}
+"2017-09-19 11:53:38","DEBUG",Finished Request
+"2017-09-19 11:53:38","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-3/value {"text": "\u5c0f\u7ec413", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-3", "value": ["\u5c0f", "\u7ec4", "1", "3"]}
+"2017-09-19 11:53:38","DEBUG",Finished Request
+"2017-09-19 11:53:38","DEBUG","ui_case_11_mult_refute-1-1","输入的小组名称为：小组13"
+"2017-09-19 11:53:38","DEBUG","ui_case_11_mult_refute-1-1","1.3-选择小组长..."
+"2017-09-19 11:53:38","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/div/div/div[1]/input"}
+"2017-09-19 11:53:38","DEBUG",Finished Request
+"2017-09-19 11:53:38","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[2]/div/div/div[1]/input"}
+"2017-09-19 11:53:38","DEBUG",Finished Request
+"2017-09-19 11:53:38","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-4/value {"text": "m", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-4", "value": ["m"]}
+"2017-09-19 11:53:38","DEBUG",Finished Request
+"2017-09-19 11:53:39","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"autocomplete-leaders\"]/ul/li/a"}
+"2017-09-19 11:53:39","DEBUG",Finished Request
+"2017-09-19 11:53:39","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"autocomplete-leaders\"]/ul/li/a"}
+"2017-09-19 11:53:39","DEBUG",Finished Request
+"2017-09-19 11:53:39","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-5/click {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-5"}
+"2017-09-19 11:53:39","DEBUG",Finished Request
+"2017-09-19 11:53:39","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"3\"]"}
+"2017-09-19 11:53:39","DEBUG",Finished Request
+"2017-09-19 11:53:39","DEBUG",GET http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-6/text {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-6"}
+"2017-09-19 11:53:39","DEBUG",Finished Request
+"2017-09-19 11:53:39","DEBUG","ui_case_11_mult_refute-1-1","选择的小组长为：m"
+"2017-09-19 11:53:40","DEBUG","ui_case_11_mult_refute-1-1","1.4-选择组员-验收员"
+"2017-09-19 11:53:40","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[3]/div/div/div[1]/input"}
+"2017-09-19 11:53:40","DEBUG",Finished Request
+"2017-09-19 11:53:40","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"root\"]/div[2]/div/div/div[3]/div/div/div[1]/input"}
+"2017-09-19 11:53:40","DEBUG",Finished Request
+"2017-09-19 11:53:40","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-7/value {"text": "test_reviewer", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-7", "value": ["t", "e", "s", "t", "_", "r", "e", "v", "i", "e", "w", "e", "r"]}
+"2017-09-19 11:53:40","DEBUG",Finished Request
+"2017-09-19 11:53:41","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/elements {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"autocomplete-leaders\"]/ul/li/a"}
+"2017-09-19 11:53:41","DEBUG",Finished Request
+"2017-09-19 11:53:41","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element {"using": "xpath", "sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "value": "//*[@id=\"autocomplete-leaders\"]/ul/li/a"}
+"2017-09-19 11:53:41","DEBUG",Finished Request
+"2017-09-19 11:53:41","DEBUG",POST http://127.0.0.1:53285/session/a4cdcb6dea2d4f0aa6b8a4f3908de67c/element/0.1910725130396782-5/click {"sessionId": "a4cdcb6dea2d4f0aa6b8a4f3908de67c", "id": "0.1910725130396782-5"}
+"2017-09-19 11:53:41","DEBUG",Finished Request
+"2017-09-19 11:53:41","ERROR","ui_case_11_mult_refute-1-1","Current task executes failed, error message: Message: element not visible
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64)
+"
+"2017-09-19 11:53:41","DEBUG","ui_case_11_mult_refute-1-1","End executing current task"
+"2017-09-19 11:53:41","INFO","ui_case_11_mult_refute","1","1","Fail","15.567"
+"2017-09-19 11:53:41","DEBUG","ui_case_11_mult_refute-1-2","Start to execute task: 2 - 小组管理-修改任务池"
+"2017-09-19 11:53:41","DEBUG","ui_case_11_mult_refute-1-2","Current task is not run because the param 'run' is 0"
+"2017-09-19 11:53:41","DEBUG","ui_case_11_mult_refute-1-2","End executing current task"
+"2017-09-19 11:53:41","INFO","ui_case_11_mult_refute","1","2","Skip","0.001"
+"2017-09-19 11:53:41","INFO","ui_case_11_mult_refute","1","NULL","Fail","15.606"
+"2017-09-19 11:53:41","DEBUG","ui_case_11_mult_refute-1","End executing test case: 1 - 流式多队列-小组管理"
+"2017-09-19 11:53:41","DEBUG","ui_case_11_mult_refute","End executing suite: ui_case_11_mult_refute"

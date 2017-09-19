@@ -27,9 +27,10 @@ STREAM_CHECK_TASK_NAME = u"Face - 假脸识别"
 # 验收
 STREAM_REVIEW_TASK_NAME = u"Face - 假脸识别"
 
-# 项目列表页面，筛选项目类型，xpath 的option id
+# 项目列表页面，筛选项目类型，xpath 的option id, 项目列表url
 TASK_XPATH_ID = "14"
 TASK_POOL_ID = "1"
+JOB_LIST = "spa/job/manager/jobs?sorts=&page=1&per_page=10&"
 
 # 多队列测试的项目类型名称
 MULT_TASK_NAME = u"Face - 假脸识别"

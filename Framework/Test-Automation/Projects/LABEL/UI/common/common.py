@@ -442,6 +442,17 @@ def old_user_statistic(driver, task_name, new_window_url, number_xpath_n, userna
     return user_number_text_list
 
 
+# 获取项目列表页面的项目进度的数据
+def job_progress_statistic(driver, job_id, n):
+    handles = get_window(driver, config.JOB_LIST)
+    find_by_xpath(driver, '//*[@id="root"]/div[2]/div/div/div[1]/div[2]/div/input', job_id, "send_keys")
+    find_by_xpath(driver, '//*[@id="root"]/div[2]/div/div/div[1]/div[2]/div/button[1]')
+    number = get_text(driver.find_element_by_xpath('//*[@id="root"]/div[2]/div/div/div[2]/table/tbody/tr/td[%s]' % n).text, 0)
+    close_window(driver, handles)
+    return number
+
+
+
 # 校验次数
 def check_statistic(check_name, check_page, check_statistic_name, before_number, after_number, increase=1):
     if int(after_number) == int(before_number) + increase:

@@ -38,7 +38,7 @@
         {
             "suiteName": "ui_case_4_mult_edit_statistic",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "edit_statistic.json"
             ],
@@ -56,7 +56,7 @@
         {
             "suiteName": "ui_case_5_mult_check_statistic",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 1,
+            "run": 0,
             "executeSequencer": [
                 "check_statistic.json"
             ],
@@ -98,6 +98,15 @@
                 "refute.json"
             ],
             "notes": "ui_case_10_mult_refute-多队列批驳"
+        },
+        {
+            "suiteName": "ui_case_11_mult_refute",
+            "folderPath": "/ui_case/multiple_queue",
+            "run": 0,
+            "executeSequencer": [
+                "group_manage.json"
+            ],
+            "notes": "ui_case_11_mult_refute-小组管理"
         }
 
     ]

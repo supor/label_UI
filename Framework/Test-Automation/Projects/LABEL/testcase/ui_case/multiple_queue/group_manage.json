@@ -1,0 +1,39 @@
+{
+    "id": "1",
+    "name": "流式多队列-小组管理",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "",
+        "mailList": []
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "小组管理-新增小组",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_group",
+            "className": "",
+            "functionName": "create_group",
+            "params": {
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        },
+        {
+            "id": 2,
+            "name": "小组管理-新增小组",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_group",
+            "className": "",
+            "functionName": "update_group",
+            "params": {
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 0
+        }
+    ]
+}
+

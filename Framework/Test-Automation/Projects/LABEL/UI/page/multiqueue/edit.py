@@ -108,6 +108,10 @@ def edit_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.M
                         '//*[@id="subjob-list-body"]/table/tbody/tr[%s]/td[7]/a' % str(i)).click()
                     sleep(config.STIME)
 
+                    job_id = common.get_text(_driver.find_element_by_id('job_id').text, 0)
+                    unit_id = _driver.find_element_by_id("unit_id").text
+                    logger.write_debug(u"标注的job为：%s, 跳过unit为：%s" % (job_id, unit_id))
+
                     logger.write_debug(u"1-查看在标注跳过前各统计数据")
                     logger.write_debug(u"1.1-查看任务池工作量统计页面在跳过前的标注个数")
                     before_edit_number = common.task_pool_statistic(_driver, task_pool_id, "4")
@@ -139,8 +143,10 @@ def edit_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.M
                     logger.write_debug(u"1.9-查看任务池进度页面在跳过前的待检查总数")
                     before_to_check_number = common.progress_statistics(_driver, task_pool_id, "6")
 
-                    unit_id = _driver.find_element_by_id("unit_id").text
-                    logger.write_debug(u"跳过unit %s" % unit_id)
+                    logger.write_debug(u"1.10-查看项目列表页面在跳过前的待检查总数")
+                    before_job_to_check_number = common.job_progress_statistic(_driver, job_id, "11")
+
+                    logger.write_debug(u"点击跳过按钮")
                     common.find_by_id(_driver, 'skip1')
                     common.find_by_xpath(_driver, '//*[@id="reason-dialog"]/div/div[2]/button')
 
@@ -174,6 +180,9 @@ def edit_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.M
 
                     logger.write_debug(u"2.9-查看任务池进度页面在跳过后的待检查总数")
                     after_to_check_number = common.progress_statistics(_driver, task_pool_id, "6")
+
+                    logger.write_debug(u"2.10-查看项目列表页面在跳过后的待检查总数")
+                    after_job_to_check_number = common.job_progress_statistic(_driver, job_id, "11")
 
                     logger.write_debug(u"3-校验标注跳过后各统计数据的正确性")
                     common.check_statistic(u"3.1-标注跳过", u"任务池工作量统计", u"标注个数",
@@ -212,8 +221,10 @@ def edit_skip(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=config.M
                                         unit_id, u"unit", u"跳过",
                                         before_my_user_number[2], before_my_user_number[3],
                                         after_my_user_number[2], after_my_user_number[3])
-                    common.check_statistic(u"3.9-标注提交", u"任务池进度", u"待检查个数",
+                    common.check_statistic(u"3.9-标注跳过", u"任务池进度", u"待检查个数",
                                            before_to_check_number, after_to_check_number)
+                    common.check_statistic(u"3.10-标注跳过", u"项目列表进度", u"待检查个数",
+                                           before_job_to_check_number, after_job_to_check_number)
 
                     break
                 else:
@@ -258,6 +269,10 @@ def edit_submit(work_flow_id, task_pool_id, task_name):
                         '//*[@id="subjob-list-body"]/table/tbody/tr[%s]/td[7]/a' % str(i)).click()
                     sleep(config.STIME)
 
+                    job_id = common.get_text(_driver.find_element_by_id('job_id').text, 0)
+                    unit_id = _driver.find_element_by_id("unit_id").text
+                    logger.write_debug(u"提交unit：%s" % unit_id)
+
                     logger.write_debug(u"1-查看在标注提交前各统计数据")
                     logger.write_debug(u"1.1-查看任务池工作量统计页面在提交前的标注个数")
                     before_edit_number = common.task_pool_statistic(_driver, task_pool_id, "4")
@@ -288,8 +303,11 @@ def edit_submit(work_flow_id, task_pool_id, task_name):
 
                     logger.write_debug(u"1.9-查看任务池进度页面在提交前的待检查总数")
                     before_to_check_number = common.progress_statistics(_driver, task_pool_id, "6")
-                    unit_id = _driver.find_element_by_id("unit_id").text
-                    logger.write_debug(u"提交unit %s" % unit_id)
+
+                    logger.write_debug(u"1.10-查看项目列表页面在提交前的待检查总数")
+                    before_job_to_check_number = common.job_progress_statistic(_driver, job_id, "11")
+
+                    logger.write_debug(u"标注提交")
                     common.find_by_id(_driver, 'next1')
 
                     logger.write_debug(u"2-查看在标注提交前各统计数据")
@@ -322,6 +340,9 @@ def edit_submit(work_flow_id, task_pool_id, task_name):
 
                     logger.write_debug(u"2.9-查看任务池进度页面在提交后的待检查总数")
                     after_to_check_number = common.progress_statistics(_driver, task_pool_id, "6")
+
+                    logger.write_debug(u"2.10-查看项目列表页面在提交后的待检查总数")
+                    after_job_to_check_number = common.job_progress_statistic(_driver, job_id, "11")
 
                     logger.write_debug(u"3-校验标注提交后各统计数据的正确性")
                     common.check_statistic(u"3.1-标注提交", u"任务池工作量统计", u"标注个数",
@@ -362,6 +383,8 @@ def edit_submit(work_flow_id, task_pool_id, task_name):
                                         after_my_user_number[2], after_my_user_number[3])
                     common.check_statistic(u"3.9-标注提交", u"任务池进度", u"待检查个数",
                                            before_to_check_number, after_to_check_number)
+                    common.check_statistic(u"3.10-标注提交", u"项目列表进度", u"待检查个数",
+                                           before_job_to_check_number, after_job_to_check_number)
 
                     break
                 else:

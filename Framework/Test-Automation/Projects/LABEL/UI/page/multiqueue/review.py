@@ -899,7 +899,8 @@ def t():
     common.diff_url_login(driver, config.BASE_URL, 0)
 
     # common.workflow_statistics(driver, "1", "13", "1", config.USERNAME_VENDOR[0])
-    driver.get('http://vendor.zzcrowd.com/manager/statistic/task-type')
+    driver.get('http://vendor.zzcrowd.com/spa/job/manager/jobs?sorts=&page=1&per_page=10&')
     sleep(2)
-    number = common.statistics(driver, u"Face - 假脸识别", config.OLD_STATISTIC_URL, '3')
+    # number = common.statistics(driver, u"Face - 假脸识别", config.OLD_STATISTIC_URL, '3')
+    number = common.pro_progress_statistic(driver, "258", 10)
     print number

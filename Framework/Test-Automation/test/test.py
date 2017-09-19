@@ -244,4 +244,24 @@ def run_edit():
             driver.find_element_by_xpath('//*[@id="reason-dialog"]/div/div[2]/button').click()
             sleep(1.5)
 
-run_edit()
+
+def api_tes():
+    import requests
+    import json
+    url = "http://vendor.zzcrowd.com/api/v2/publisher-groups"
+
+    querystring = {"title": "supor_测试发布组"}
+
+    payload = json.dumps(querystring)
+    headers = {
+        'content-type': "application/json",
+        'cache-control': "no-cache",
+        'postman-token': "da3cfad2-33fb-9c66-7c67-61023951af07",
+        "Cookie": "session=.eJw9zjEKgzAUANCrlD87qOgiOFSioUN-UEJDsgitsRq1hahQEO9ecegFHm-DunVm7iBZ3Go8qPsGkg0uD0hAicqivUacZAOnZcBF7itZdEw0I5tUoMkQocReU5XC7sFzdm29fAbz_hNcVhNSFiqbdVreRwzLWBPlo9UT2oM5SBR5zEjRK3H7onhFvExPbp2NOzsQwP4Dcis0iw.DJvMEg.4daTRG3i6ScgkWn4uEvQkOLCiqs"
+    }
+
+    response = requests.request("POST", url, data=payload, headers=headers)
+
+    print response.text
+
+api_tes()
