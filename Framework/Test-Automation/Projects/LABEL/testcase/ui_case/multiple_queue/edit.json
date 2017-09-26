@@ -12,7 +12,7 @@
         {
             "id": 1,
             "name": "多队列-标注流程",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit.edit",
             "className": "",
             "functionName": "edit",
             "params": {

@@ -11,12 +11,12 @@
         {
             "id": 1,
             "name": "任务池管理-新建任务池",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool.create_task_pool",
             "className": "",
             "functionName": "create_task_pool",
             "params": {
             },
-            "run": 0,
+            "run": 1,
             "realtime": 1,
             "expectedError": "",
             "globalReturnedValue": 0
@@ -24,12 +24,12 @@
         {
             "id": 2,
             "name": "任务池管理-修改任务池",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool.update_task_pool",
             "className": "",
             "functionName": "update_task_pool",
             "params": {
             },
-            "run": 0,
+            "run": 1,
             "realtime": 0,
             "expectedError": "",
             "globalReturnedValue": 0
@@ -37,12 +37,12 @@
         {
             "id": 3,
             "name": "任务池管理-新增工作流",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool.create_work_flow",
             "className": "",
             "functionName": "create_work_flow",
             "params": {
             },
-            "run": 0,
+            "run": 1,
             "realtime": 1,
             "expectedError": "",
             "globalReturnedValue": 0
@@ -50,12 +50,12 @@
         {
             "id": 4,
             "name": "任务池管理-修改工作流",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_task_pool.update_work_flow",
             "className": "",
             "functionName": "update_work_flow",
             "params": {
             },
-            "run": 0,
+            "run": 1,
             "realtime": 1,
             "expectedError": "",
             "globalReturnedValue": 0

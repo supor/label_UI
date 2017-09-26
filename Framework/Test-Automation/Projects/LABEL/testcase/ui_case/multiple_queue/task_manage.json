@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "管理员分配任务",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_project",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_project.manage_project",
             "className": "",
             "functionName": "multiple_assign",
             "params": {

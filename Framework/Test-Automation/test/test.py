@@ -119,12 +119,14 @@
 # print result.text
 
 
-# #
+from selenium import webdriver
+from time import sleep
+
+
 def login():
-    from selenium import webdriver
-    from time import sleep
+
     driver = webdriver.Chrome("D:\chromedriver")
-    driver.get("http://vendor.zzcrowd.com/login")
+    driver.get("https://test.zzcrowd.com/login")
     sleep(1)
     driver.find_element_by_id("username").send_keys("r")
     sleep(0.5)
@@ -264,4 +266,15 @@ def api_tes():
 
     print response.text
 
-api_tes()
+
+def click():
+    driver = login()
+
+    sleep(1)
+    driver.get("https://test.zzcrowd.com/editor/flow-editing/1")
+    sleep(3)
+    driver.find_element_by_id("next1").click()
+    sleep(5)
+
+
+

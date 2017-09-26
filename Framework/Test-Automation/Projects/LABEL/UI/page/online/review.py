@@ -2,9 +2,9 @@
 # 验收员验收流程
 
 from time import sleep
-from Projects.LABEL import pro_config as config
+
 import framework.taf_logging as logger
-from Projects.LABEL.UI.common import common
+from Projects.LABEL.UI.common import common, pro_config as config
 
 
 def stream_review():

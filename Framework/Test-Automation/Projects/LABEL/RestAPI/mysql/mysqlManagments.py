@@ -1,10 +1,8 @@
 # coding: utf-8
 
-import time
-
-import Projects.LABEL.pro_config as config
-import framework.taf_logging as logger
 import Driver.mysqlDriver as mysql
+import Projects.LABEL.UI.common.pro_config as config
+import framework.taf_logging as logger
 
 
 def select_distprofit_id(sment_no):

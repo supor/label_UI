@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "多队列-检查流程",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.check",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.check.check",
             "className": "",
             "functionName": "check",
             "params": {

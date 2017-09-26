@@ -1,0 +1,15 @@
+"2017-09-25 17:54:11","DEBUG","ui_case_1_stream","Test suite 'ui_case_1_stream' do not run because the param 'run' is 0"
+"2017-09-25 17:54:11","DEBUG","ui_case_2_task_manage","Test suite 'ui_case_2_task_manage' do not run because the param 'run' is 0"
+"2017-09-25 17:54:11","DEBUG","ui_case_3_task_pool_manage","Test suite 'ui_case_3_task_pool_manage' do not run because the param 'run' is 0"
+"2017-09-25 17:54:11","DEBUG","ui_case_4_mult_edit_statistic","Start to execute suite: ui_case_4_mult_edit_statistic"
+"2017-09-25 17:54:11","DEBUG","ui_case_4_mult_edit_statistic-1","Start to execute test case: 1 - 流式多队列-标注-统计"
+"2017-09-25 17:54:11","DEBUG","ui_case_4_mult_edit_statistic-1-1","Start to execute task: 1 - 多队列-标注-跳过-统计"
+"2017-09-25 17:54:11","DEBUG","ui_case_4_mult_edit_statistic-1-1","Start to execute function 'edit_skip'"
+"2017-09-25 17:54:13","DEBUG","ui_case_4_mult_edit_statistic-1-1","程序开始执行的时间为：2017-09-25 17:54:13"
+"2017-09-25 17:54:15","DEBUG",POST http://127.0.0.1:53049/session {"capabilities": {"alwaysMatch": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}, "firstMatch": []}, "desiredCapabilities": {"platform": "ANY", "browserName": "chrome", "version": "", "chromeOptions": {"args": [], "extensions": []}}}
+"2017-09-25 17:54:16","DEBUG",Finished Request
+"2017-09-25 17:54:16","DEBUG",POST http://127.0.0.1:53049/session/6bf25a2b22a385dfcb89dd20ea8cefcf/window/current/maximize {"windowHandle": "current", "sessionId": "6bf25a2b22a385dfcb89dd20ea8cefcf"}
+"2017-09-25 17:54:17","DEBUG",Finished Request
+"2017-09-25 17:54:17","DEBUG",POST http://127.0.0.1:53049/session/6bf25a2b22a385dfcb89dd20ea8cefcf/url {"url": "https://www2.zzcrowd.com/", "sessionId": "6bf25a2b22a385dfcb89dd20ea8cefcf"}
+"2017-09-25 17:54:18","DEBUG",Finished Request
+"2017-09-25 17:54:18","DEBUG","ui_case_4_mult_edit_statistic-1-1","启动chrome浏览器..."

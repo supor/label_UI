@@ -1,12 +1,12 @@
 # coding: utf-8
 
+import random
 import time
 
-import Projects.LABEL.pro_config as config
 import Driver.webserviceDriver as restful
-import framework.taf_logging as logger
-import random
 import Projects.LABEL.RestAPI.mysql.mysqlManagments as mysql
+import Projects.LABEL.UI.common.pro_config as config
+import framework.taf_logging as logger
 
 
 def send_post_requests(uri, data, headers, status, table_main, sment_no, other_header={}):

@@ -12,7 +12,7 @@
         {
             "id": 1,
             "name": "多队列-标注-跳过-统计",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit.edit_skip",
             "className": "",
             "functionName": "edit_skip",
             "params": {
@@ -28,7 +28,7 @@
         {
             "id": 2,
             "name": "多队列-标注-提交-统计",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.edit.edit_submit",
             "className": "",
             "functionName": "edit_submit",
             "params": {
@@ -36,7 +36,7 @@
                 "task_pool_id": "1",
                 "task_name": "Face - 假脸识别"
             },
-            "run":0,
+            "run":1,
             "realtime": 1,
             "expectedError": "",
             "globalReturnedValue": 0

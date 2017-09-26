@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "小组管理-新增小组",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_group",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_group.create_group",
             "className": "",
             "functionName": "create_group",
             "params": {
@@ -24,7 +24,7 @@
         {
             "id": 2,
             "name": "小组管理-新增小组",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_group",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.manage_group.update_group",
             "className": "",
             "functionName": "update_group",
             "params": {

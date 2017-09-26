@@ -2,7 +2,7 @@
 
 import MySQLdb
 
-import Projects.LABEL.pro_config as config
+import Projects.LABEL.UI.common.pro_config as config
 import framework.taf_logging as logger
 
 

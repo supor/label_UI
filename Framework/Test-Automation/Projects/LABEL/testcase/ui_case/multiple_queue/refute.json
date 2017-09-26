@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "多队列-批驳流程",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.refute",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.review.refute",
             "className": "",
             "functionName": "refute",
             "params": {
@@ -23,7 +23,7 @@
                 "part_approve": "否",
                 "refute_handle": "同意驳回"
             },
-            "run": 1,
+            "run": 0,
             "realtime": 1,
             "expectedError": "",
             "globalReturnedValue": 0

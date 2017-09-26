@@ -47,7 +47,7 @@
         {
             "suiteName": "ui_case_6_mult_edit",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "edit.json"
             ],
@@ -56,7 +56,7 @@
         {
             "suiteName": "ui_case_5_mult_check_statistic",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "check_statistic.json"
             ],
@@ -66,7 +66,7 @@
         {
             "suiteName": "ui_case_7_mult_check",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "check.json"
             ],
@@ -75,7 +75,7 @@
         {
             "suiteName": "ui_case_8_mult_sample",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "sample.json"
             ],
@@ -84,7 +84,7 @@
         {
             "suiteName": "ui_case_9_mult_review",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "review.json"
             ],
@@ -93,7 +93,7 @@
         {
             "suiteName": "ui_case_10_mult_refute",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "refute.json"
             ],
@@ -102,7 +102,7 @@
         {
             "suiteName": "ui_case_11_mult_refute",
             "folderPath": "/ui_case/multiple_queue",
-            "run": 0,
+            "run": 1,
             "executeSequencer": [
                 "group_manage.json"
             ],

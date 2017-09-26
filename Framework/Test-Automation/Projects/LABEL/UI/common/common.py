@@ -1,9 +1,11 @@
 # -*- coding:utf-8 -*-
 # 公共方法
+
 import re
-from selenium import webdriver
 from time import sleep
-from Projects.LABEL import pro_config as config
+
+from selenium import webdriver
+from Projects.LABEL.UI.common import pro_config as config
 from framework import taf_logging as logger
 
 
@@ -79,8 +81,16 @@ def login(driver, username, passwd):
     find_by_id(driver, 'password', passwd, "send_keys")
     logger.write_debug(u"点击登录按钮")
     find_by_id(driver, 'submit')
+    sleep(10)
 
     assert_url(driver, "distribution", u"登录成功")
+
+
+# 拖动滚动条到最底部
+def scroll(driver):
+    js = "var q=document.documentElement.scrollTop=10000"
+    driver.execute_script(js)
+    sleep(config.STIME)
 
 
 # 不同的环境登录的用户名及密码
@@ -219,6 +229,7 @@ def close_window(driver, handles):
 
 
 def init_statistics(driver, list_xpath, to_statistic_id, number_xpath_n):
+    sleep(config.STIME)
     elements = driver.find_elements_by_xpath(list_xpath)
     l = len(elements)
     number_text = "0"
@@ -282,7 +293,7 @@ def user_statistic(driver, username):
     if len(users) == 0:
         logger.write_debug(u"工作流统计没有数据")
     else:
-        for x in range(len(users), len(users) + 1):
+        for x in range(1, len(users) + 1):
             workflow_username = driver.find_element_by_xpath(
                 '//*[@id="salary-list"]/table/tbody/tr[%s]/td[1]' % str(x)).text
             sleep(config.STIME)
@@ -328,7 +339,7 @@ def workflow_user_statistics(driver, to_statistic_id, number_xpath_n, work_flow_
                 if len(workflow) == 0:
                     logger.write_error(u"工作流统计没记录，统计错误")
                 else:
-                    for j in range(len(workflow), len(workflow) + 1):
+                    for j in range(1, len(workflow) + 1):
                         workflow_id = driver.find_element_by_xpath('%s[%s]/td[1]' % (config.LIST_XPATH, str(j))).text
                         sleep(config.STIME + 1)
                         if workflow_id != work_flow_id:
@@ -386,6 +397,7 @@ def statistics(driver, task_name, new_window_url, number_xpath_n):
 # 任务池进度统计
 def progress_statistics(driver, task_pool_id, number_xpath_n):
     handles = get_window(driver, config.POOL_PROGRESS_URL)
+    driver.find_element_by_id("_id").click()
     number_text = init_statistics(driver, config.PROGRESS_XPATH, task_pool_id, number_xpath_n)
     close_window(driver, handles)
     return number_text
@@ -417,7 +429,7 @@ def old_user_statistic(driver, task_name, new_window_url, number_xpath_n, userna
                 if len(users) == 0:
                     logger.write_debug(u"统计没有数据")
                 else:
-                    for x in range(len(users), len(users) + 1):
+                    for x in range(1, len(users) + 1):
                         user_username = driver.find_element_by_xpath(
                             '//*[@id="salary-list"]/table/tbody/tr[%s]/td[1]' % str(x)).text
                         sleep(config.STIME)
@@ -450,7 +462,6 @@ def job_progress_statistic(driver, job_id, n):
     number = get_text(driver.find_element_by_xpath('//*[@id="root"]/div[2]/div/div/div[2]/table/tbody/tr/td[%s]' % n).text, 0)
     close_window(driver, handles)
     return number
-
 
 
 # 校验次数

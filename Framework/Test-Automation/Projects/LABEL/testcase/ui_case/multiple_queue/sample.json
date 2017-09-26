@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "多队列-抽查流程",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.sample",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.sample.sample",
             "className": "",
             "functionName": "sample",
             "params": {

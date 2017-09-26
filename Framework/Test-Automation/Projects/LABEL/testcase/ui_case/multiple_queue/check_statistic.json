@@ -12,14 +12,14 @@
         {
             "id": 1,
             "name": "多队列-检查-跳过-统计",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.check",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.check.check_skip",
             "className": "",
             "functionName": "check_skip",
             "params": {
                 "work_flow_id": "1",
                 "task_pool_id": "1",
                 "task_name": "Face - 假脸识别",
-                "sample": "true"
+                "sample": "false"
             },
             "run":1,
             "realtime": 1,
@@ -29,14 +29,14 @@
         {
             "id": 2,
             "name": "多队列-检查-通过-统计",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.check",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.check.check_approve",
             "className": "",
             "functionName": "check_approve",
             "params": {
                 "work_flow_id": "1",
                 "task_pool_id": "1",
                 "task_name": "Face - 假脸识别",
-                "sample": "true"
+                "sample": "false"
             },
             "run":1,
             "realtime": 1,
@@ -46,7 +46,7 @@
         {
             "id": 3,
             "name": "多队列-检查-驳回-统计",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.check",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.check.check_reject",
             "className": "",
             "functionName": "check_reject",
             "params": {
@@ -62,7 +62,7 @@
         {
             "id": 4,
             "name": "多队列-检查-修改-统计",
-            "moduleName": "Projects.LABEL.UI.page.multiqueue.check",
+            "moduleName": "Projects.LABEL.UI.page.multiqueue.check.check_update",
             "className": "",
             "functionName": "check_update",
             "params": {
