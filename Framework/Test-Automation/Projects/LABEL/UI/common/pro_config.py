@@ -10,13 +10,13 @@ USERNAME_VENDOR = ["r", "test_editor", "test_checker", "test_reviewer", "test_re
 PWD_VENDOR = "vendor"
 # PWD_VENDOR = "zsp14006"
 
-BASE_URL_VENDOR = "https://www2.zzcrowd.com/"
+BASE_URL_VENDOR = "https://staging.zzcrowd.com/"
 # BASE_URL_VENDOR = "https://www.zzcrowd.com/"
 USERNAME_DEV = ["r", "c3", "c4"]
 PWD_DEV = "dev"
 BASE_URL_DEV = "http://caihao.dev.zzcrowd.com/"
 
-BASE_URL = "https://www2.zzcrowd.com/"
+BASE_URL = "https://staging.zzcrowd.com/"
 # BASE_URL = "http://caihao.dev.zzcrowd.com/"
 
 # ######################################################################################################################

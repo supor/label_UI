@@ -85,6 +85,7 @@ def check(work_flow_id):
                             common.find_by_xpath(_driver, '//*[@id="reason-dialog"]/div/div[2]/button')
                             common.find_by_xpath(_driver, '/html/body/div[3]/div/div/div[3]/button')
                             logger.write_debug(u"提交unit %s" % unit_id)
+                            common.scroll(_driver)
                             common.find_by_id(_driver, 'next2')
                             break
 

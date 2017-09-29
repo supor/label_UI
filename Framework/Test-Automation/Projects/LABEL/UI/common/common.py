@@ -81,7 +81,7 @@ def login(driver, username, passwd):
     find_by_id(driver, 'password', passwd, "send_keys")
     logger.write_debug(u"点击登录按钮")
     find_by_id(driver, 'submit')
-    sleep(10)
+    sleep(config.STIME)
 
     assert_url(driver, "distribution", u"登录成功")
 
@@ -157,25 +157,25 @@ def check_comments(driver, unit_id, task_status, username, operate_result, statu
 
     logger.write_debug(u"校验%s操作评论..." % task_status)
     logger.write_debug(u"获取%s员用户名" % task_status)
-    name = driver.find_element_by_xpath('//*[@id="display-panel"]/ul/li[2]/span[1]').text
+    name = driver.find_element_by_xpath('//*[@id="display-panel"]/ul[1]/li[2]/span[1]').text
     if name != username:
         logger.write_error(u"%s员用户名显示错误，显示的用户名为：%s, 应该是：%s" %
                            (task_status, name, username))
 
     logger.write_debug(u"获取%s员职位" % task_status)
-    position = driver.find_element_by_xpath('//*[@id="display-panel"]/ul/li[2]/span[2]').text
+    position = driver.find_element_by_xpath('//*[@id="display-panel"]/ul[1]/li[2]/span[2]').text
     if position != u"%s员" % task_status:
         logger.write_error(u"%s员职位显示错误，显示的职位为：%s, 应该是：%s员"
                            % (task_status, position, task_status))
 
     logger.write_debug(u"校验%s操作显示" % task_status)
-    operate = driver.find_element_by_xpath('//*[@id="display-panel"]/ul/li[2]/span[3]').text
+    operate = driver.find_element_by_xpath('//*[@id="display-panel"]/ul[1]/li[2]/span[3]').text
     if operate != task_status:
         logger.write_error(u"%s员操作显示错误，显示的操作是：%s, 应该是：%s"
                            % (task_status, operate, task_status))
 
     logger.write_debug(u"校验%s员操作结果" % task_status)
-    result = driver.find_element_by_xpath('//*[@id="display-panel"]/ul/li[2]/span[4]').text
+    result = driver.find_element_by_xpath('//*[@id="display-panel"]/ul[1]/li[2]/span[4]').text
     if result != operate_result:
         logger.write_error(u"%s员操作结果显示错误，显示为：%s, 应该是：%s" % (task_status, result, operate_result))
     elif name == username and position == u"%s员" % task_status and operate == task_status and result == operate_result:
@@ -398,6 +398,7 @@ def statistics(driver, task_name, new_window_url, number_xpath_n):
 def progress_statistics(driver, task_pool_id, number_xpath_n):
     handles = get_window(driver, config.POOL_PROGRESS_URL)
     driver.find_element_by_id("_id").click()
+    sleep(config.STIME)
     number_text = init_statistics(driver, config.PROGRESS_XPATH, task_pool_id, number_xpath_n)
     close_window(driver, handles)
     return number_text

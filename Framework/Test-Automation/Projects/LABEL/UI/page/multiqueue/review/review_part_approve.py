@@ -55,7 +55,7 @@ def review_part_approve(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_nam
 
                     logger.write_debug(u"获取验收包id")
                     publisher_url = _driver.current_url
-                    review_unit_id = common.get_text(publisher_url, 1)
+                    review_unit_id = common.get_text(publisher_url, 0)
                     logger.write_debug(u"驳回的验收包为：%s" % review_unit_id)
 
                     logger.write_debug(u"1-获取在验收部分通过前各统计的数据")

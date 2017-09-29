@@ -28,6 +28,8 @@ def create_group():
 
     logger.write_debug(u"1-新增小组")
     logger.write_debug(u"1.1-点击新增按钮")
+    _driver.refresh()
+    sleep(config.STIME)
     common.find_by_xpath(_driver, '//*[@id="root"]/div[2]/div/div/div[1]/div[2]/div/button')
     common.assert_url(_driver, 'spa/manager/team/creation', u"新增小组页面")
 

@@ -250,7 +250,7 @@ def run_edit():
 def api_tes():
     import requests
     import json
-    url = "http://vendor.zzcrowd.com/api/v2/publisher-groups"
+    url = "https://test.zzcrowd.com/api/v2/publisher-groups?page=2&per_page=10"
 
     querystring = {"title": "supor_测试发布组"}
 
@@ -259,12 +259,15 @@ def api_tes():
         'content-type': "application/json",
         'cache-control': "no-cache",
         'postman-token': "da3cfad2-33fb-9c66-7c67-61023951af07",
-        "Cookie": "session=.eJw9zjEKgzAUANCrlD87qOgiOFSioUN-UEJDsgitsRq1hahQEO9ecegFHm-DunVm7iBZ3Go8qPsGkg0uD0hAicqivUacZAOnZcBF7itZdEw0I5tUoMkQocReU5XC7sFzdm29fAbz_hNcVhNSFiqbdVreRwzLWBPlo9UT2oM5SBR5zEjRK3H7onhFvExPbp2NOzsQwP4Dcis0iw.DJvMEg.4daTRG3i6ScgkWn4uEvQkOLCiqs"
+        "Cookie": "session=.eJxFzsEKgkAQANBfiTl7cFe6CB4KlzCYDUEcxotQKu6aBatSKv574KUfeLwVysbVQwvh6Kbag9JUEK5wuEMIKFWgL_xhm8xFfO50jAETS6bUR9IGs7xnUt-CVASbB4_BNeX47urXn7BVy9nT6KWyuk98TSh44Rnl1SCxYKkkUiqYCsMyt7c4OepTtHPTULu9AwK2H5wLNN4.DK0JyQ.ZIdgK4WPwKQ6rHUUk8ew7LWGGfI"
+                  ""
     }
 
-    response = requests.request("POST", url, data=payload, headers=headers)
+    response = requests.request("GET", url, data=payload, headers=headers, verify=False)
 
     print response.text
+
+api_tes()
 
 
 def click():

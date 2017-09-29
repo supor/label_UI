@@ -53,7 +53,7 @@ def review_reject(work_flow_id, task_pool_id=config.TASK_POOL_ID, task_name=conf
 
                     logger.write_debug(u"获取验收包id")
                     publisher_url = _driver.current_url
-                    review_unit_id = common.get_text(publisher_url, 1)
+                    review_unit_id = common.get_text(publisher_url, 0)
                     logger.write_debug(u"驳回的验收包为：%s" % review_unit_id)
 
                     logger.write_debug(u"校验创建验收包后，未操作验收前的验收包信息正确性")

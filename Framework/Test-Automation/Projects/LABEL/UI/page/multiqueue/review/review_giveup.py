@@ -53,7 +53,7 @@ def review_giveup(task_pool_id):
 
                     logger.write_debug(u"获取验收包id")
                     publisher_url = _driver.current_url
-                    review_unit_id = common.get_text(publisher_url, 1)
+                    review_unit_id = common.get_text(publisher_url, 0)
                     logger.write_debug(u"放弃的验收包为：%s" % review_unit_id)
 
                     sleep(1)
